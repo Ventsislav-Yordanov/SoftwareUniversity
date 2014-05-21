@@ -1,0 +1,4 @@
+1. cd до директорията или през file explorer, shift + десен бутон + open new command prompt window here
+2. set path=%path%;D:\JAVA\Intro-Java-Homework\src
+3. javac CurrentDateTime.java
+4. java CurrentDateTime
