@@ -1,0 +1,1 @@
+C# is a language, .NET is the application framework the language is built on. The .NET libraries can run on the CLR and thus any language which can run on the CLR can also use the .NET libraries.

@@ -1,0 +1,19 @@
+1. Java - class-based, object-oriented programming language developed in the 1990s. It's one of the most in-demand programming languages, a standard for enterprise software. It can be used to create web-based content, games and mobile apps (including such on the Android OS). It is also designed to work on multiple platforms, which means that even if sth. is written on MacOS it could also run on Windows.
+
+2. C Language - An imperative programming language created in the 70's.C is the oldest and most widely used language, providing the basics for other popular languages, such as C#, Java, JavaScript and Python. 
+
+3. C++ - an intermediate-level language with object-oriented programming features, originally designed to enhance the C language. C++ powers major software like Firefox, Winamp and Adobe programs. It's used to develop systems software but it could also be used for video games making.
+
+4. C# - multi-paradigm language developed by Microsoft as part of its .NET initiative. Combining principles from C and C++, C# is a general-purpose language used to develop software for Microsoft and Windows platforms.
+
+5. Objective C - a general-purpose, object-oriented programming language used by the Apple operating system. It powers Apple's OS X and iOS, and is used to create mobile apps on the iOS which is why this language is so in-demand.
+
+6. PHP - a free, server-side scripting language designed for dynamic websites and app development. What makes it popular is that it can be embeded into the HTML page, so there is no need of an external file.
+
+7. Python -  Python is a high-level, server-side scripting language for websites and mobile apps. It's considered an easy language for beginners because of its syntax. With Python you could write sth. with less code than in other languages. It powers the web apps for Instagram, Pinterest and Rdio.
+
+8. Ruby -  A dynamic, object-oriented scripting language for developing websites and mobile apps, Ruby was designed to be simple and easy to write. It powers the Ruby on Rails (or Rails) framework, which is used on Scribd, GitHub, Groupon and Shopify. It too is considered to be a fairly easy language to work on.
+
+9. Javascript - JavaScript is a client and server-side scripting language developed by Netscape that derives much of its syntax from C. it is used for developing interactive and animated web functions, but it could also be used for desktop applications.
+
+10. SQL - Structured Query Language (SQL) is a special-purpose language for managing data in relational database management systems. It is most commonly used for its "Query" function, which searches informational databases.   
