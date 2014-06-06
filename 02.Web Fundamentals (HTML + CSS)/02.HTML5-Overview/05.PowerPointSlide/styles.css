@@ -1,10 +1,10 @@
 ﻿        body {
-            margin:0px;
+            margin:0;
         }
 
         #wrapper {
-            padding: 0px;
-            margin: 0px;
+            padding: 0;
+            margin: 0;
             width: 1024px;
             height: 575px;
             background-image: url("http://oi61.tinypic.com/2mcvbzr.jpg");
@@ -12,7 +12,7 @@
 
         h1 {
             display: block;
-            margin-top: 0px;
+            margin-top: 0;
             margin-left: 30px;
             color: #f3be60;
         }
@@ -37,7 +37,7 @@
 
             .main p {
             font-size:0.7em;
-            margin:0px;
+            margin:0;
             color:#f9edc8;
             }
 
@@ -50,7 +50,6 @@
             font-weight:bold;
             margin-left: 25px;
             margin-top: 30px;
-            background-color: rgba(32,32,30,0.5);
             height: 65px;
             width: 700px;
             border: 1px solid #646056;
@@ -61,7 +60,6 @@
             font-weight:bold;
             margin-left: 25px;
             margin-top: 15px;
-            background-color: rgba(32,32,30,0.5);
             border: 1px solid #646056;
             width: 700px;
             height: 85px;
