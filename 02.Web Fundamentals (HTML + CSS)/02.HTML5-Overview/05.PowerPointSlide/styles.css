@@ -1,0 +1,74 @@
+﻿<link href='http://fonts.googleapis.com/css?family=Cousine:700' rel='stylesheet' type='text/css'>
+
+      * {
+            font-family:Calibri,serif;
+        }
+
+        body {
+            margin:0px;
+        }
+
+        #wrapper {
+            padding: 0px;
+            margin: 0px;
+            width: 1024px;
+            height: 575px;
+            background-image: url("http://oi61.tinypic.com/2mcvbzr.jpg");
+        }
+
+        h1 {
+            display: block;
+            margin-top: 0px;
+            margin-left: 30px;
+            color: #f3be60;
+        }
+
+        li {
+        list-style-type:none;
+        color:white;
+        }
+
+            li:before {
+                margin-right: 15px;
+                content: "■";
+                color: #f3be60;
+                font-size:20px;
+                vertical-align:super;
+            }
+
+        .main {
+        margin-top:25px;
+        font-size:2em;
+        }
+
+            .main p {
+            font-size:0.7em;
+            margin:0px;
+            color:#f9edc8;
+            }
+
+        span {
+            color: #f3be60;
+        }
+
+        #smallest {
+            font-family: 'Cousine',monospace ;
+            font-weight:bold;
+            margin-left: 25px;
+            margin-top: 30px;
+            background-color: rgba(32,32,30,0.5);
+            height: 65px;
+            width: 700px;
+            border: 1px solid #646056;
+        }
+
+        .content {
+            font-family: 'Cousine',monospace;
+            font-weight:bold;
+            margin-left: 25px;
+            margin-top: 15px;
+            background-color: rgba(32,32,30,0.5);
+            border: 1px solid #646056;
+            width: 700px;
+            height: 85px;
+        }
