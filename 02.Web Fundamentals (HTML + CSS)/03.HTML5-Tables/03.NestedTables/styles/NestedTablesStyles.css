@@ -1,0 +1,17 @@
+﻿table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    font-family:Arial;
+    border-spacing: 3px;
+}
+
+td {
+    padding: 15px;
+}
+
+#nestedTable {
+    width: 300px;
+    font-size: 50px;
+}

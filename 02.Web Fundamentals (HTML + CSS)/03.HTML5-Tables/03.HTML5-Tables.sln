@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.SimpleTable", "01.SimpleTable\01.SimpleTable.csproj", "{D2AD1624-70CC-4A68-A2BE-0819EF8BE153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ExamResults", "02.ExamResults\02.ExamResults.csproj", "{4FDEF09D-FF01-45A4-BB29-8A3D5F248968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.NestedTables", "03.NestedTables\03.NestedTables.csproj", "{E761CACE-2146-4A6D-BCCB-86290DDEDD4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.WebsiteHeader", "04.WebsiteHeader\04.WebsiteHeader.csproj", "{BC7ED8A7-AC17-4C8F-8DEB-36AEBDA6D835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.LifeInSoftUni", "05.LifeInSoftUni\05.LifeInSoftUni.csproj", "{F33E2FE6-A1E7-4973-9D65-CAB181BDF174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.LifeInSoftUniKeyboard", "06.LifeInSoftUniKeyboard\06.LifeInSoftUniKeyboard.csproj", "{35291F33-A16D-4D29-BCC8-81DDA026990D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Calculator", "07.Calculator\07.Calculator.csproj", "{3EF1499C-1131-4CF0-9AF3-2FC56F02C78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2AD1624-70CC-4A68-A2BE-0819EF8BE153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2AD1624-70CC-4A68-A2BE-0819EF8BE153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2AD1624-70CC-4A68-A2BE-0819EF8BE153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2AD1624-70CC-4A68-A2BE-0819EF8BE153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDEF09D-FF01-45A4-BB29-8A3D5F248968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDEF09D-FF01-45A4-BB29-8A3D5F248968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDEF09D-FF01-45A4-BB29-8A3D5F248968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDEF09D-FF01-45A4-BB29-8A3D5F248968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E761CACE-2146-4A6D-BCCB-86290DDEDD4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E761CACE-2146-4A6D-BCCB-86290DDEDD4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E761CACE-2146-4A6D-BCCB-86290DDEDD4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E761CACE-2146-4A6D-BCCB-86290DDEDD4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC7ED8A7-AC17-4C8F-8DEB-36AEBDA6D835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC7ED8A7-AC17-4C8F-8DEB-36AEBDA6D835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC7ED8A7-AC17-4C8F-8DEB-36AEBDA6D835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC7ED8A7-AC17-4C8F-8DEB-36AEBDA6D835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F33E2FE6-A1E7-4973-9D65-CAB181BDF174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F33E2FE6-A1E7-4973-9D65-CAB181BDF174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F33E2FE6-A1E7-4973-9D65-CAB181BDF174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F33E2FE6-A1E7-4973-9D65-CAB181BDF174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35291F33-A16D-4D29-BCC8-81DDA026990D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35291F33-A16D-4D29-BCC8-81DDA026990D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35291F33-A16D-4D29-BCC8-81DDA026990D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35291F33-A16D-4D29-BCC8-81DDA026990D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF1499C-1131-4CF0-9AF3-2FC56F02C78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF1499C-1131-4CF0-9AF3-2FC56F02C78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF1499C-1131-4CF0-9AF3-2FC56F02C78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF1499C-1131-4CF0-9AF3-2FC56F02C78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

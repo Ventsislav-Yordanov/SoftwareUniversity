@@ -1,0 +1,27 @@
+﻿#calc {
+    width:250px;
+    height: 100px;
+    border: 2px solid black;
+    text-align:center;
+    table-layout:fixed;
+    background:#c6c6c6;
+    padding:5px;
+}
+
+    #calc button{
+        width:50px;
+        height:50px;
+        font-size:25px;
+    }
+
+    #calc button:hover{
+        background:#c6c6c6;
+        font-weight:bold;
+    }
+
+    #display{
+        width:221px;
+        height:30px;
+        margin:5px;
+        font-size:25px;
+    }

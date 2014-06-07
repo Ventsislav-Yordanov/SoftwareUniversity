@@ -1,0 +1,18 @@
+﻿table{
+    width:500px;
+    height:250px;
+    font-size:21px;
+    font-family:Tahoma;
+}
+
+table, tr, td, th {
+    border: 1px solid black;
+}
+
+thead{
+    font-size:28px;
+}
+
+tfoot{
+    text-align:right;
+}
