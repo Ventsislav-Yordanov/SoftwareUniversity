@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Simple Form</title>
+    <link href="CSS/SimpleFormStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Enter the system</h2>
+    <p>It is necessary to login in Your account order to sign in for a course.</p>
+
+    <form action="register.php" method="post" class="register">
+        <h3>ARE YOU NEW? <span>REGISTER</span></h3>
+        <input type="text" name="username" placeholder="User name"/>
+        <input type="email" name="e-mail" placeholder="Email"/>
+        <input type="password" name="password" placeholder="Password"/>
+        <input type="password" name="confirmPassword" placeholder="Confirm password"/>
+        <button>Register</button>
+    </form>
+
+    <form action="login.php" method="post" class="login">
+        <h3>ALREADY A STUDENT? LOGIN</h3>
+        <input type="text" name="username" placeholder="User name" />
+        <input type="password" name="password" placeholder="Password"/>
+        <div class="remember">
+            <input type="checkbox" name="rememberMe" id="rememberMe" />
+            <label for="rememberMe">Remember me ?</label>
+        </div>
+        <button>Login</button>
+        <a href="#">Forgot Passowrd</a>
+    </form>
+</body>
+</html>

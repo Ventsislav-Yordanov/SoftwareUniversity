@@ -1,0 +1,27 @@
+﻿body {
+    font-family:Tahoma;
+    font-size:14px;
+}
+
+.upload {
+    margin-bottom:15px;
+}
+
+label{
+    float:left;
+    margin: 3px 3px 0 0;
+}
+
+#WordPressIcon {
+    margin-top:2px;
+    padding:0;
+    vertical-align:bottom;
+    width:25px;
+    height:25px;
+}
+
+input[type=search] {
+        height:25px;
+        padding:0;
+        margin:0;
+}

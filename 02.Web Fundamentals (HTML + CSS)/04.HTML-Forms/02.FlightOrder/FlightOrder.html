@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>FLIGHT ORDER</title>
+    <link href="CSS/FlightOrderStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>FLIGHT ORDER</h1>
+    <table>
+        <tr>
+            <td><label for="cityFrom">From</label></td>
+            <td><label for="cityTo">To</label></td>
+        </tr>
+        <tr>
+            <td>
+                <select name="cityFrom" id="cityFrom" class="large">
+                    <option value="" selected disabled>enter a city</option>
+                    <option value="1">Rousse</option>
+                    <option value="2">Plovdiv</option>
+                    <option value="3">Burgas</option>
+                    <option value="4">Varna</option>
+                </select>
+            </td>
+            <td>
+                <select name="cityTo" id="cityTo" class="large">
+                    <option value="" selected disabled>enter a city</option>
+                    <option value="1">Rousse</option>
+                    <option value="2">Plovdiv</option>
+                    <option value="3">Burgas</option>
+                    <option value="4">Varna</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="checkbox" name="preferDirects" id="preferDirects" />
+                <label for="preferDirects" id="preferDirectsLabel">Prefer directs</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="departureDate">Departure Date</label>
+            </td>
+            <td>
+                <label for="timeInterval">Time Interval</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="date" value="2014-06-09" name="departureDate" id="departureDate" />
+            </td>
+            <td>
+                <input type="time" value="00:20" name="timeInterval" id="timeInterval" class="medium"/>
+                <input type="time" value="05:00" name="timeInterval" class="medium" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="returnDate">Return Date</label>
+            </td>
+            <td>
+                <label for="returnTimeInterval">Time Interval</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="date" value="2014-06-13" name="returnDate" id="returnDate" />
+            </td>
+            <td>
+                <input type="time" value="16:00" name="returnTimeInterval" id="returnTimeInterval" class="medium" />
+                <input type="time" value="22:00" name="returnTimeInterval" class="medium" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="12+" class="smallestLabels">12+</label>
+                <label for="2-12" class="smallestLabels">2-12</label>
+                <label for="0-2" class="smallestLabels">0-2</label>
+            </td>
+            <td>
+                <label for="chooseClass">Choose class</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" min="0" value="0" id="12+" class="smallest"/>
+                <input type="number" min="0" value="0" id="2-12" class="smallest" />
+                <input type="number" min="0" value="0" id="0-2" class="smallest" />
+            </td>
+            <td>
+                <select name="chooseClass" id="chooseClass" class="large">
+                    <option value="1" selected>Economy</option>
+                    <option value="2">Business</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button>Search</button>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
