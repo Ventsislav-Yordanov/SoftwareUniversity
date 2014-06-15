@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C78FED71-9EAA-4FFC-BD01-D36BA7FA96B6}</ProjectGuid>
+    <ProjectGuid>{483D6804-BC99-46A9-9230-F4E9C8C593B6}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_04.Fakebook</RootNamespace>
-    <AssemblyName>04.Fakebook</AssemblyName>
+    <RootNamespace>_05.LaptopChoice</RootNamespace>
+    <AssemblyName>05.LaptopChoice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -65,8 +65,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\fakebookStyles.css" />
-    <Content Include="Fakebook.html" />
+    <Content Include="CSS\LaptopChoiceStyles.css" />
+    <Content Include="images\laptop.jpg" />
+    <Content Include="LaptopChoice.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,9 +86,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>3738</DevelopmentServerPort>
+          <DevelopmentServerPort>60597</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:33410/</IISUrl>
+          <IISUrl>http://localhost:60597/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

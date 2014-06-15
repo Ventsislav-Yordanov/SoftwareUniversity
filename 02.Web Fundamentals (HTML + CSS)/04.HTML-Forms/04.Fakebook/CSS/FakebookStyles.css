@@ -1,104 +1,73 @@
-﻿body{
+﻿body {
+    background-color:#3B5997;
+    color:white;
     font-family:Tahoma;
 }
 
-div {
-    color:white;
-}
-
-.Wrapper {
-    background-color:#3B5997;
-}
-
-h1 {
-    color:white;
-    font-size:90px;
+section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    width:80%;
     text-align:center;
-    margin:0;
-}
-
-h2 {
-    color:white;
-    font-size:30px;
-    text-align:center;
-    margin:0;
-}
-
-h3 {
-    color:white;
-    font-size:15px;
-    text-align:center;
-    margin:0;
-}
-
-form {
-    width:500px;
-}
-
-.medium {
-    width:130px;
 }
 
 fieldset {
-    vertical-align:top;
-    display:inline;
+        border-radius: 10px;
+        display: inline;
+        font-size:14px;
+        text-align:left;
 }
 
-#NoneImportantInformation {
-    width:280px;
-    border-radius:10px;
-    float:left;
-    margin:20px;
-}
-
-input[type=radio] {
+h1, h2, h3 {
+    text-align:center;
     margin:10px;
 }
 
+h1 {
+    font-size:90px;
+}
+
+h2 { 
+    font-size:30px;
+}
+
+h3 {
+    font-size:15px;
+    margin-bottom:30px;
+}
+
 input[type=text], input[type=email], input[type=tel], input[type=password], input[type=url], input[type=datetime-local],
-input[type=color], select {
-    padding:5px;
-    border-radius:5px;
-}
-
-#ImportantInformationRequired {
-    border-radius:10px;
-    width:480px;
-}
-
-.in, select, input[type=color] {
-    margin-left:5px;
+input[type=color],input[type=date],input[type=tel], select, textarea {
     width:140px;
+    border-radius:5px;
+    margin:2px;
 }
 
-.smallIn { 
+input[type=text].details {
     width:70px;
-}
-
-table tr td {
-    padding:2px;
 }
 
 textarea {
     width:470px;
-    border-radius:5px;
 }
 
-.clearButton {
-    color:#3B5997;
-    font-size:16px;
-    width:300px;
+#btn-clear {
+    width:333px;
     height:40px;
-    border-radius:10px;
-    margin:20px;
+    border-radius:5px;
+    background-color:lightgray;
+    color:#3B5997;
+    font-size:18px;
+    margin-left:250px;
 }
 
-.registerButton {
+#btn-register {
+    background-color:lightgray;
     color:#3B5997;
     font-size:20px;
-    width:480px;
     height:40px;
-    border-radius:10px;
-    margin:20px;
-    margin-left:0;
+    width:505px;
+    border-radius:5px;
+    margin-left:10px;
 }

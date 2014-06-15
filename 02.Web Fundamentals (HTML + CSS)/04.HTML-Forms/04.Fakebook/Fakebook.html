@@ -2,89 +2,75 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Fakebook</title>
-    <link href="CSS/FakebookStyles.css" rel="stylesheet" />
+    <link href="CSS/fakebookStyles.css" rel="stylesheet" />
 </head>
 <body>
-    <div class="Wrapper">
-        <h1>fakebook</h1> <!--&reg;-->
+        <h1>fakebook</h1>
         <h2>Registration</h2>
         <h3>It is safe and it will always be!</h3>
-
-        <form method="post">
-            <fieldset id="NoneImportantInformation">
-                <legend>None-Important Information</legend>
-                <table>
-                    <tr>
-                        <td>
-                            <input type="text" name="firstName" placeholder="First Name" class="medium" />
-                        </td>
-                        <td>
-                            <input type="text" name="lastName" placeholder="Last Name" class="medium" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="email" name="email" placeholder="Your Email" class="medium" />
-                        </td>
-                        <td>
-                            <input type="tel" name="phone" placeholder="Phone Number" class="medium" />
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <input type="password" name="password" placeholder="Your Password" class="medium" />
-                        </td>
-                        <td>
-                            <input type="url" name="website" placeholder="Website" class="medium" />
-                        </td>
-                    </tr>
-                </table>
+        
+        <section>
+            <fieldset>
+                <legend>Non-Important Information</legend>
+                <input type="text" placeholder="First Name" name="firstname" class="input" />
+                <input type="text" placeholder="Last Name" name="lastname" class="input" />
+                <br />
+                <input type="email" placeholder="Your Email" name="email" class="input" />
+                <input type="tel" placeholder="Phone Number" name="phonenum" class="input" />
+                <br />
+                <input type="password" placeholder="Password" name="pass" class="input" />
+                <input type="text" placeholder="Website" name="website" class="input" />
+                <br />
                 <label for="birthday">Birthday</label>
                 <br />
                 <input type="datetime-local" name="birthday" id="birthday" value="2014-09-05T01:58:00" />
                 <br />
-                <input type="radio" value="Female" name="female" id="female"/>
+                <input type="radio" value="female" class="gender" name="gender" />
                 <label for="female">Female</label>
-                <input type="radio" value="Male" name="male" />
+                <input type="radio" value="male" id="gender" name="gender" />
                 <label for="male">Male</label>
-                <input type="radio" value="other" name="other" checked />
+                <input type="radio" value="other" id="gender" name="gender" checked />
                 <label for="other">Other</label>
+                <br />
+                <br />
             </fieldset>
-        </form>
-        <form>
-            <fieldset id="ImportantInformationRequired">
+
+            <fieldset>
                 <legend>Important Information *required</legend>
-                <select name="country">
-                    <option selected disabled>Country</option>
-                    <option>Bulgaria</option>
-                    <option>United</option>
-                    <option>Russia</option>
+                <select class="input">
+                    <option selected="selected">Country</option>
+                    <option value="Bulgaria">Bulgaria</option>
+                    <option value="Romania">Romania</option>
+                    <option value="Macedonia">Macedonia</option>
+                    <option value="Other">Other</option>
                 </select>
-                <input type="text" name="village" placeholder="Village" required class="in" />
-                <input type="text" name="district" placeholder="District" required class="in" />
+                <input type="text" placeholder="Village" name="village" class="input" />
+                <input type="text" placeholder="District" name="district" class="input" />
                 <br />
-                <input type="text" name="street" placeholder="Street" required class="in" />
-                <input type="text" name="nr" placeholder="Nr" required class="smallIn" />
-                <input type="text" name="floor" placeholder="Floor" class="smallIn" />
-                <input type="text" name="apNr" placeholder="Ap Nr" class="smallIn" />
+                <input type="text" placeholder="Street" name="street" class="input" />
+                <input type="text" placeholder="Nr" name="num" class="details" />
+                <input type="text" placeholder="Floor" name="floor" class="details" />
+                <input type="text" placeholder="Ap Nr" name="ap nr" class="details" />
                 <br />
-                <input type="color" name="door_color" value="#FF69B4" />
-                <input type="text" name="waterMaterNr" placeholder="Water Mater Nr" required class="in" />
-                <select name="AuntPantiesSize" required class="in">
-                    <option disabled selected>Aunt Painties` Size</option>
-                    <option>Medium</option>
-                    <option>Big</option>
-                    <option>XL</option>
-                    <option>XXL</option>
-                    <option>XXXL</option>
+                <label for="color">Door Color</label>
+                <br />
+                <input type="color" name="color" class="input" id="color" value="#FF80C0" />
+                <input type="text" placeholder="Water Meter Number" name="meter-num" class="input" />
+                <select class="input">
+                    <option selected="selected">Aunt's Panties Size</option>
+                    <option value="L">L</option>
+                    <option value="XL">XL</option>
+                    <option value="XXL">XXL</option>
+                    <option value="Unimaginable">Unimaginable</option>
                 </select>
-                <label for="morePersonalInfo">More Personal Information</label>
                 <br />
-                <textarea id="morePersonalInfo" placeholder="Give Us Some Information!!!" rows="5"></textarea>
+                <label for="personalInfo">More Personal Information</label>
+                <br />
+                <textarea placeholder="Give us more information!!!" id="personalInfo"></textarea>
             </fieldset>
-            <input type="reset" value="Clear Form" class="clearButton"/>
-            <button class="registerButton">Register</button>
-        </form>
-    </div>
+        </section>
+    <br />
+    <input type="reset" value="Clear Form" id="btn-clear" />
+    <input type="submit" value="Register" id="btn-register" />
 </body>
 </html>
