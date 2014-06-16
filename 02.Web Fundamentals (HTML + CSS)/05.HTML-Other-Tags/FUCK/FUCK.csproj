@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{1C456038-D95F-4492-9E2C-ED54B125978C}</ProjectGuid>
+    <ProjectGuid>{A979176A-AE3B-479B-8F0D-2DFEBFD09E24}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02.Kent_sMediaProfile</RootNamespace>
-    <AssemblyName>02.Kent%27sMediaProfile</AssemblyName>
+    <RootNamespace>FUCK</RootNamespace>
+    <AssemblyName>FUCK</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -65,9 +65,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\Kent%27sMediaProfileStyles.css" />
-    <Content Include="images\kent.jpg" />
-    <Content Include="Kent%27sMediaProfile.html" />
+    <Content Include="HtmlPage1.html" />
+    <Content Include="styles\styles.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,9 +85,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55379</DevelopmentServerPort>
+          <DevelopmentServerPort>57009</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55379/</IISUrl>
+          <IISUrl>http://localhost:57009/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>

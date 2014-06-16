@@ -7,12 +7,12 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D67E4B20-AA4E-495D-92A4-7BD4F3152F50}</ProjectGuid>
+    <ProjectGuid>{2F0F7393-A326-4E2F-B25C-92ADB3790321}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01.RefactorHTML</RootNamespace>
-    <AssemblyName>01.RefactorHTML</AssemblyName>
+    <RootNamespace>_02.Kent_sMediaProfile</RootNamespace>
+    <AssemblyName>02.Kent%27sMediaProfile</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -65,13 +65,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="images\visual-studio-2013-logo.png" />
-    <Content Include="Page.html" />
+    <Content Include="CSS\Kent%27sMediaProfileStyles.css" />
+    <Content Include="images\kent.jpg" />
+    <Content Include="Kent%27sMediaProfile.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -85,9 +87,9 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>55035</DevelopmentServerPort>
+          <DevelopmentServerPort>12440</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:55035/</IISUrl>
+          <IISUrl>http://localhost:12440/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
