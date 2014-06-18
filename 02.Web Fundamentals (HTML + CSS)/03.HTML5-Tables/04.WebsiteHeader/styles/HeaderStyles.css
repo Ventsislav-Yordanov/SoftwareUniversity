@@ -10,6 +10,10 @@ ul, li, input{
     padding:0;
 }
 
+a:hover{
+    background:#ff6a00;
+}
+
 table{
     background-color:#234465;
     width:1212px;
@@ -60,7 +64,7 @@ table tr td nav ul{
                 margin-top:8px;
                 display:none;
                 background-color:#234465;
-                width:320px;
+                width:420px;
                 border-bottom-left-radius:5px;
                 border-bottom-right-radius:5px;
                 text-align:left;
