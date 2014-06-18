@@ -1,0 +1,42 @@
+﻿body {
+    font-family:Tahoma;
+}
+
+header h1 {
+    color:#F1C006;
+    background-color:black;
+    width:600px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    text-align:center;
+    margin:0;
+}
+
+section {
+    background-color:black;
+    width:600px;
+    height:220px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+iframe {
+    border:1px solid #F1C006;
+    margin:20px -20px 20px 20px;
+}
+
+ul {
+    display:inline-block;
+    vertical-align:top;
+    font-size:22px;
+    font-style:italic;
+}
+
+    ul  li {
+        margin-bottom:7px;
+    }
+
+    ul a {
+        text-decoration:none;
+        color:white;
+    }

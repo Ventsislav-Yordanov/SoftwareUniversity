@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>JavaScript Wordship</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="280" height="290" style="border:3px dotted red"></canvas>
+    <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.font = "34px Tahoma";
+        ctx.fillText("I love JavaScript", 10, 50)
+        ctx.fillStyle = "#FFDE08";
+        ctx.fillRect(60, 90, 150, 150);
+        ctx.fillStyle = "#000";
+        ctx.font = "90px Arial Bold";
+        ctx.fillText("JS", 90, 230)
+    </script>
+</body>
+</html>
