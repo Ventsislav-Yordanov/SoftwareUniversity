@@ -1,0 +1,196 @@
+﻿body {
+    font-family: Calibri;
+}
+
+#background {
+    background-color:#00923E;
+    width:1215px;
+    height:420px;
+    padding-top:20px;
+}
+
+table {
+    border:2px solid black;
+    border-radius:20px;
+    width:1170px;
+    height:400px;
+    margin:auto;
+}
+
+
+thead {
+    background-color:#F8C711;
+}
+
+.white-row {
+    background-color:white;
+}
+
+.grey-row {
+    background-color:#C8C8C8;
+}
+
+table td {
+    border: 1px solid black;
+    text-align:center;
+    font-size:18px;
+}
+
+table th {
+    border: 1px solid black;
+    text-align:center;
+    font-size:25px;
+}
+
+table td:nth-child(1) {
+    text-align:right;
+    padding-right:5px;
+    width:200px;
+}
+
+table td:nth-child(3) {
+    text-align:left;
+    padding-left:5px;
+    width:200px;
+}
+
+table td:nth-child(5) {
+    text-align:right;
+    padding-right:5px;
+    width:170px;
+}
+
+table td:nth-child(6) {
+    width:130px;
+}
+
+table td:nth-child(7) {
+    width:165px;
+    text-align:left;
+    padding-left:5px;
+}
+
+table td:nth-child(8) {
+    width:65px;
+}
+
+#zero-row th:nth-child(1) {
+    border-top-left-radius:17px;
+}
+
+#zero-row th:last-child {
+    border-top-right-radius:17px;
+}
+
+table tbody tr:last-child td:first-child {
+    border-bottom-left-radius:17px;
+}
+
+table tbody tr:last-child td:last-child {
+    border-bottom-right-radius:17px;
+}
+
+table tr {
+    height:65px;
+}
+
+table tbody tr:nth-child(1) td:nth-child(1) div.image {
+    content:url(../images/Brasil.png);
+    float:right;
+    margin-left:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(1) td:nth-child(3) div.image {
+    content:url(../images/Mexico.png);
+    float:left;
+    margin-right:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(2) td:nth-child(1) div.image {
+    content:url(../images/Spain.png);
+    float:right;
+    margin-left:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(2) td:nth-child(3) div.image {
+    content:url(../images/Netherlands.png);
+    float:left;
+    margin-right:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(3) td:nth-child(1) div.image {
+    content:url(../images/Italy.png);
+    float:right;
+    margin-left:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(3) td:nth-child(3) div.image {
+    content:url(../images/England.png);
+    float:left;
+    margin-right:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(4) td:nth-child(1) div.image {
+    content:url(../images/Argentina.png);
+    float:right;
+    margin-left:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(4) td:nth-child(3) div.image {
+    content:url(../images/Bosnia%20and%20Herz.png);
+    float:left;
+    margin-right:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(5) td:nth-child(1) div.image {
+    content:url(../images/Germany.png);
+    float:right;
+    margin-left:5px;
+    margin-top:4px;
+}
+
+table tbody tr:nth-child(5) td:nth-child(3) div.image {
+    content:url(../images/Portugal.png);
+    float:left;
+    margin-right:5px;
+    margin-top:4px;
+}
+
+input[type=number] {
+    width:42px;
+    height:42px;
+    padding-left:2px;
+}
+
+input[type=number]:disabled:hover {
+    background-color:grey;
+    color:red;
+}
+
+input[type=number]:enabled:hover {
+    background-color:grey;
+    color:white;
+}
+
+input[type=submit] {
+    width:42px;
+    height:42px;
+    border-radius:20px;
+    color:white;
+}
+
+input[type=submit]:disabled {
+    background-color:red;
+}
+
+input[type=submit]:enabled {
+    background-color:green;
+}

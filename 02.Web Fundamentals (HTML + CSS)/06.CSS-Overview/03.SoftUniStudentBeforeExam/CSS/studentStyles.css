@@ -1,0 +1,96 @@
+﻿#head {
+    position:absolute;
+    width:420px;
+    height:420px;
+    border-radius:250px;
+    background-color:yellow;
+    border:3px solid black;
+    margin-left:50px;
+    margin-top:25px;
+}
+
+#leftEye {
+    position:absolute;
+    width:85px;
+    height:85px;
+    border:3px solid black;
+    background-color:white;
+    border-radius:100px;
+    margin-left:70px;
+    margin-top:70px;
+}
+
+#leftPupil{
+    position:absolute;
+    width:28px;
+    height:28px;
+    background-color:black;
+    border-radius:100px;
+    margin-left:45px;
+    margin-top:45px;
+}
+
+#rightEye {
+    position:absolute;
+    width:85px;
+    height:85px;
+    border:3px solid black;
+    background-color:white;
+    border-radius:100px;
+    margin-left:230px;
+    margin-top:70px;
+}
+
+#rightPupil {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    border-radius: 100px;
+}
+
+#nose {
+    position:absolute;
+    width:65px;
+    height:65px;
+    border:3px solid black;
+    background-color:red;
+    border-radius:100px;
+    margin-left:160px;
+    margin-top:170px;
+}
+
+#mouth {
+    position:absolute;
+    width:202px;
+    height:80px;
+    border:3px solid black;
+    background-color:white;
+    border-radius:100px;
+    margin-left:90px;
+    margin-top:260px;
+}
+
+#leftTooth {
+    position:absolute;
+    width:40px;
+    height:40px;
+    border:3px solid black;
+    background-color:white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left:60px;
+    margin-top:-3px;
+}
+
+#rightTooth {
+    position:absolute;
+    width:40px;
+    height:40px;
+    border:3px solid black;
+    background-color:white;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    margin-left:105px;
+    margin-top:-3px;
+}
