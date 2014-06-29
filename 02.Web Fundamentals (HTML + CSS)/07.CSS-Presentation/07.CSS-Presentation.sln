@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.TheJauntyTextField", "01.TheJauntyTextField\01.TheJauntyTextField.csproj", "{EC0DD8FF-DE9A-4236-AADD-C5E1D9DF1B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.SoftUniHawaiiVacation", "02.SoftUniHawaiiVacation\02.SoftUniHawaiiVacation.csproj", "{CC526599-FD61-4E56-A7F2-EF2EC5410673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03StylingForm", "03StylingForm\03StylingForm.csproj", "{70DE9DA3-332D-4DC6-8768-D10D0D9A0D5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.NestedDivElements", "04.NestedDivElements\04.NestedDivElements.csproj", "{FC80D51E-05D1-4F8D-AC4D-FD4E253ACB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC0DD8FF-DE9A-4236-AADD-C5E1D9DF1B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0DD8FF-DE9A-4236-AADD-C5E1D9DF1B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0DD8FF-DE9A-4236-AADD-C5E1D9DF1B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0DD8FF-DE9A-4236-AADD-C5E1D9DF1B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC526599-FD61-4E56-A7F2-EF2EC5410673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC526599-FD61-4E56-A7F2-EF2EC5410673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC526599-FD61-4E56-A7F2-EF2EC5410673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC526599-FD61-4E56-A7F2-EF2EC5410673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70DE9DA3-332D-4DC6-8768-D10D0D9A0D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DE9DA3-332D-4DC6-8768-D10D0D9A0D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DE9DA3-332D-4DC6-8768-D10D0D9A0D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DE9DA3-332D-4DC6-8768-D10D0D9A0D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC80D51E-05D1-4F8D-AC4D-FD4E253ACB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC80D51E-05D1-4F8D-AC4D-FD4E253ACB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC80D51E-05D1-4F8D-AC4D-FD4E253ACB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC80D51E-05D1-4F8D-AC4D-FD4E253ACB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

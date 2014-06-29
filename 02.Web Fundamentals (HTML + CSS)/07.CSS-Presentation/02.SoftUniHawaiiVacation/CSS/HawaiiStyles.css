@@ -1,0 +1,84 @@
+﻿@font-face {
+    src:url(../FONTS/Animated.ttf);
+    font-family:Animated;
+}
+
+#container {
+    width:605px;
+    height:405px;
+    background-image:url(../IMAGES/HawaiiBackground.png),
+    -webkit-radial-gradient(23%% 19%, circle closest-corner, #eaebe4, #E9F19F 41%,#e8e7dc 40%,#0094ff 113%),
+    -webkit-linear-gradient(left, #509FDF , #0069DB);
+	background-repeat: no-repeat;
+    background-size: 605px 405px;
+    margin:20px 40px;
+}
+
+
+#container h1 {
+    position:relative;
+    font-family:Animated;
+    color:#FFBF1A;
+    left:306px;
+    top:13px;
+}
+
+#VladoGHula {
+    position:relative;
+    width:195px;
+    height:239px;
+    background:url(../IMAGES/VladoGHula.png);
+    background-size: 195px 239px;
+    left:25px;
+    top:96px;
+}
+
+#PetiaHula {
+    position:relative;
+    width:163px;
+    height:268px;
+    background:url(../IMAGES/PetiaHula.png);
+    background-size: 163px 268px;
+    left:125px;
+    top:-168px;
+}
+
+#TediHula {
+    position:relative;
+    width:107px;
+    height:145px;
+    background:url(../IMAGES/TediHula.png);
+    background-size: 107px 145px;
+    left:185px;
+    top:-314px;
+}
+
+#NakovHula {
+    position:relative;
+    width:150px;
+    height:278px;
+    background:url(../IMAGES/NakovHula.png);
+    background-size: 150px 278px;
+    left:288px;
+    top:-611px;
+}
+
+#AlexHula {
+    position:relative;
+    width:163px;
+    height:258px;
+    background:url(../IMAGES/AlexHula.png);
+    background-size: 163px 258px;
+    left:343px;
+    top:-857px;
+}
+
+#VladoKHula {
+    position:relative;
+    width:132px;
+    height:237px;
+    background:url(../IMAGES/VladoKHula.png);
+    background-size: 132px 237px;
+    left:469px;
+    top:-1094px;
+}

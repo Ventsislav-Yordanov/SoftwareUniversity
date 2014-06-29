@@ -1,0 +1,142 @@
+﻿body {
+    font-family:Tahoma;
+}
+
+#box {
+    width:500px;
+    height:190px;
+    border-top:6px dotted yellow;
+    border-left:6px dashed red;
+    border-bottom:7px double blue;
+    border-right:7px solid green;
+    margin:20px;
+    box-shadow:13px 15px 13px black;
+}
+
+h1 {
+    text-align:center;
+    font-weight:normal;
+    font-size:36px;
+    text-shadow:13px 10px 13px black;
+    margin-top:10px;
+}
+
+#redDiv h2 {
+    font-weight:normal;
+    font-size:17px;
+    text-shadow:17px 10px 15px black;
+    margin-top:8px;
+
+}
+
+#blueDiv {
+    width:450px;
+    height:90px;
+    border:2px solid blue;
+    text-align:center;
+    margin-left:20px;
+    border-radius:50px;
+}
+
+#greenDiv {
+    width:446px;
+    height:86px;
+    border:2px solid green;
+    text-align:center;
+    border-radius:50px;
+}
+
+#yellowDiv {
+    width:442px;
+    height:82px;
+    border:2px solid yellow;
+    text-align:center;
+    border-radius:50px;
+}
+
+#redDiv {
+    width:438px;
+    height:78px;
+    border:2px solid red;
+    text-align:center;
+    border-radius:50px;
+}
+
+input[type=text] {
+    background-color:#D8921A;
+    text-align:center;
+    border-top: 2px solid #EC9C0D;
+    border-left: 2px solid #EC9C0D;
+    border-bottom: 2px solid #AD7206;
+    border-right: 2px solid #AD7206;
+}
+
+.insideBorder::before {
+    content:" ";
+    position:absolute;
+    border: 3px dashed white;
+    border-radius:50%;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+}
+
+#smallBUbble {
+    border:3px dashed #808080;
+    position:relative;
+    width:23px;
+    height:23px;
+    border-radius:50%;
+    background-color:#808080;
+    opacity:0.5;
+    left:381px;
+    bottom:63px;
+}
+
+#mediumBUbble {
+    border:3px dashed #808080;
+    position:relative;
+    width:33px;
+    height:33px;
+    border-radius:50%;
+    background-color:#808080;
+    opacity:0.5;
+    left:416px;
+    bottom:128px;
+}
+
+#largeBUbble {
+    border:4px dashed #808080;
+    position:relative;
+    width:120px;
+    height:70px;
+    background-color:#808080;
+    opacity:0.5;
+    border-radius:40px;
+    left:464px;
+    bottom: 227px;
+}
+
+#largeBUbble::before {
+    content:" ";
+    position:absolute;
+    border: 3px dashed white;
+    border-radius:40px;
+    top:0;
+    left:0;
+    bottom: 0;
+    right:0;
+}
+
+#text {
+    position:relative;
+    color:white;
+    text-align:center;
+    font-size:21px;
+    font-weight:bold;
+    width:80px;
+    height:40px;
+    left:483px;
+    bottom: 293px;
+}

@@ -1,0 +1,112 @@
+﻿body {
+    font-family:Tahoma;
+}
+
+form {
+    padding-left:20px;
+    background-image:url(../IMAGES/Background.jpg);
+    width:460px;
+    height:700px;
+    border-radius:5px;
+}
+
+form h1 {
+    color:white;
+    font-weight:bold;
+    padding-left:5px;
+    margin-bottom:5px;
+    font-size:17px;
+}
+
+fieldset {
+    border:none;
+    margin-bottom:-20px;
+}
+
+.data {
+    padding:5px 10px;
+    margin-bottom:3px;
+    width:370px;
+    height:auto;
+    border:2px solid white;
+    border-radius:5px;
+    background-color:rgba(192,192,192,0.4);
+}
+
+input {
+    border-radius:5px;
+    width:190px;
+    height:20px;
+}
+
+textarea {
+    width:187px;
+    margin-left:80px;
+    border-radius:5px;
+}
+
+input[type=radio] {
+    width:15px;
+    margin:10px 0 10px 10px;
+}
+
+img {
+    margin-bottom:-7px;
+    width:32px;
+    height:32px;
+}
+
+input[type=submit] {
+    width:100px;
+    height:30px;
+    border-radius:20px;
+    background-color:#04152F;
+    color:white;
+    border:none;
+    margin-top:20px;
+    margin-left:150px;
+}
+
+#nameOnCard {
+    width:185px;
+    margin-left:30px;
+    padding-left:5px;
+}
+
+#securityCode {
+    margin-left:33px;
+}
+
+#cardNumber {
+    margin-left:34px;
+}
+
+#country {
+    margin-left:70px;
+}
+
+#postCode {
+    margin-left:58px;
+}
+
+#adressLabel {
+    vertical-align:top;
+}
+
+#phone {
+    width:185px;
+    margin-left:83px;
+    padding-left:5px;
+}
+
+#email {
+    width:185px;
+    margin-left:89px;
+    padding-left:5px;
+}
+
+#name {
+    width:185px;
+    margin-left:87px;
+    padding-left:5px;
+}
