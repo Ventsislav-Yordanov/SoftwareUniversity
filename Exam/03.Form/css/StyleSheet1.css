@@ -1,0 +1,133 @@
+﻿@font-face {
+    font-family:'Glyphicons Halflings';
+    src:url(glyphicons-halflings-regular.ttf);
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-image:url(../images/blurred-green-background.jpg);
+    background-size:cover;
+}
+
+
+form {
+    width:350px;
+    margin:0 auto;
+}
+
+form:first-child h1 {
+    color:white;
+    background-color:#93D55C;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    text-align:center;
+}
+
+form:first-child {
+    background-color:#ECF5DE;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+    margin-bottom:20px;
+}
+
+#email, #password {
+    display:inline-block;
+}
+
+#email {
+    font-family:'Glyphicons Halflings';
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-top:1px solid black;
+    margin:10px 0 10px 10px;
+    height:20px;
+    padding:5px 10px;
+    position:relative;
+    top:2px;
+    left:4px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+#password {
+    font-family:'Glyphicons Halflings';
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-top:1px solid black;
+    margin-left:10px;
+    height:20px;
+    padding:5px 10px;
+    position:relative;
+    top:2px;
+    left:4px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+}
+
+input {
+    width:80%;
+    height:32px;
+}
+
+form:first-child input[type=submit]{   
+    width: 91%;
+    margin: auto 15px;
+    height:35px;
+    background-color:#5CB85C;
+    margin-bottom:25px;
+    margin-top:25px;
+
+    border:none;
+    border-bottom:3px solid #229E22;
+    border-radius:5px;
+}
+
+form:first-child input[type=password],form:first-child input[type=email] {
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    border:1px solid black;
+    box-sizing:border-box;
+}
+
+form:first-child input[type=email] {
+    padding-left:10px;
+}
+
+form:nth-child(2) input[type=submit] {
+    display: inline-block;
+    width: 79px;
+    background: #5CB85C;    
+    position: absolute;
+    border: none;
+    left: 781px;
+    bottom: 361px;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+}
+
+form:nth-child(2) div {
+    font-family:'Glyphicons Halflings';
+    height:20px;
+    padding:5px 10px;
+    position:relative;
+    top:2px;
+    left:4px;
+}
+
+form:nth-child(2) input[type=search] {
+    padding-left:6px;
+    width:70%;
+    
+    border-bottom-left-radius:5px;
+    border-top-left-radius:5px;
+    border:none;
+}
+
+form:nth-child(2)  div  {
+    display:inline-block;
+    margin:0;
+    padding:6px;
+    background:#5CB85C;
+    position:relative;
+    left:-4px;
+}

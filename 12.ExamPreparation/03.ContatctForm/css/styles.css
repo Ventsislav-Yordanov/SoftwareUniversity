@@ -1,0 +1,86 @@
+﻿@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat-Regular'), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/zhcz-_WihjSQC0oHJ9TCYBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Montserrat-Bold'), url(http://themes.googleusercontent.com/static/fonts/montserrat/v4/IQHow_FEYlDC4Gzy_m8fcgFhaRv2pGgT5Kf0An0s4MM.woff) format('woff');
+}
+
+body {
+    background-image:url(../images/background.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+form {
+    width:520px;
+    height:525px;
+    margin:50px auto;
+    background-color:rgba(0,0,0,0.2);
+    box-sizing:border-box;
+    padding:20px;
+}
+
+textarea {
+    box-sizing:border-box;
+    width:100%;
+    padding:0;
+    padding:15px 0 0 50px;
+    font-size:22px;
+    font-family:Montserrat;
+}
+
+input {
+    display:block;
+    width:100%;
+    height:60px;
+    margin:20px 0;
+    box-sizing:border-box;
+    font-family:Montserrat;
+}
+
+input[type=submit] {
+    height:80px;
+    border:5px solid white;
+    background-color:#16aae6;
+    color:white;
+    font-size:22px;
+    text-transform:uppercase;
+}
+
+input[type=submit]:hover {
+    background-color:white;
+    color:#16aae6;
+}
+
+input[type=text], input[type=email] {
+    padding-left:50px;
+    font-size:20px;
+    border:none;
+}
+
+#name {
+    background-image:url(../images/name.svg);
+    background-size:35px 35px;
+    background-repeat:no-repeat;
+    background-position:5px 10px;
+}
+
+#email {
+    background-image:url(../images/email.svg);
+    background-size:35px 35px;
+    background-repeat:no-repeat;
+    background-position:5px 10px;
+}
+
+#comments {
+    background-image:url(../images/comment.svg);
+    background-size:35px 35px;
+    background-repeat:no-repeat;
+    background-position:5px 10px;
+}

@@ -1,0 +1,45 @@
+﻿body {
+    font-family:Tahoma,Helvetica, sans-serif;
+}
+
+#wrapper>div {
+    display:inline-block;
+    width:145px;
+    vertical-align:top;
+    margin:10px;
+    height:272px;
+}
+
+img {
+    border:1px solid black;
+    width:100%;
+}
+
+#wrapper p {
+    height:20px;
+    font-size:11px;
+}
+
+.author {
+    color:#809797;
+    height:20px;
+    margin-bottom:0;
+
+}
+
+.price {
+    color:#8F0509;
+    font-weight:bold;
+    height:20px;
+    margin-top:10px;
+}
+
+.header {
+    text-transform:uppercase;
+}
+
+input.pay {
+    background-image: url('../images/shopping-cart-active.png');
+    background-position: 0 0;
+    padding-left:20px;
+}

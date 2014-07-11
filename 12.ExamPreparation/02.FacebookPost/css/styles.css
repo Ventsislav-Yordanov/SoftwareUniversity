@@ -1,0 +1,153 @@
+﻿* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family:Helvetica, Arial, 'DejaVu Sans', 'Liberation Sans', Freesans, sans-serif;
+}
+
+#wrapper {
+    width:500px;
+    margin:0 auto;
+}
+
+#author {
+    height:50px;
+}
+
+#author div img {
+    width:50px;
+    height:50px;
+    float:left;
+}
+
+#author-info {
+    display:inline-block;
+    float:left;
+    padding:10px;
+}
+
+#author-info p span {
+    color:#3B59B1;
+    font-weight:bold;
+}
+
+#author-info p a {
+    text-decoration:none;
+    color:#3B59B1;
+}
+
+#author-info div {
+    color:grey;
+    background-image:url(/images/icon01.png);
+    background-repeat:no-repeat;
+    background-size:13px 13px;
+    background-position:45px 4px;
+}
+
+#wrapper>div {
+    padding:10px;
+}
+
+#overview {
+    height:120px;
+    border:2px solid #DEE2E9;
+    padding:0;
+    margin:10px;
+    padding: 2px 0 !important;
+}
+
+#overview img {
+    float:left;
+}
+
+#overview div {
+    float:left;
+    padding:10px;
+}
+
+#overview div h3 {
+    color:#3B59B1;
+    text-transform:capitalize;
+}
+
+#overview div span {
+    color:grey;
+}
+
+#shares {
+    background-color:#FAFBFB;
+    border-bottom:1px solid #DEE2E9;
+    border-top:1px solid #DEE2E9;
+}
+
+#shares ul {
+    width:55%;
+}
+
+#shares ul li {
+    display:inline-block;
+}
+
+#shares ul li a {
+    text-decoration:none;
+    margin:10px;
+}
+
+#shares div {
+    float:right;
+    display:inline-block;
+    position:relative;
+    bottom:20px;
+}
+
+#shares div a {
+    text-decoration:none;
+}
+
+#shares div:before {
+    content:url(/images/icon02.png);
+}
+
+#likes {
+    background-color:#FAFBFB;
+    border-bottom:1px solid #DEE2E9;
+}
+
+#likes p a {
+    text-decoration:none;
+}
+
+#comments {
+    background-color:#FAFBFB;
+    padding-bottom:2px !important;
+}
+
+#comments a {
+    text-decoration:none;
+}
+
+#writeCooment {
+    background-color:#FAFBFB;
+    padding:0 10px !important;
+}
+
+#writeCooment img {
+    width:40px;
+    height:40px;
+}
+
+#writeCooment input {
+    height:40px;
+    width:87%;
+    padding-left:10px;
+    position:relative;
+    bottom:13px;
+    font-size:18px;
+    border:1px solid #DEE2E9;
+
+    background-image:url(/images/icon03.png);
+    background-repeat:no-repeat;
+    background-position:400px 13px;
+}
