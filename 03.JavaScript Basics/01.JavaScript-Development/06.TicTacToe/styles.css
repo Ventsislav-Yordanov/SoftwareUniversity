@@ -1,0 +1,43 @@
+﻿body {
+    text-align:center;
+    font-family:Tahoma;
+}
+
+#box {
+    text-align:center;
+    margin-left:40%;
+    width:220px;
+    height:240px;
+    background-image:url(/background.png);
+    border-radius:5px;
+}
+
+h3 {
+    padding-top:5px;
+    color:white;
+}
+
+canvas {
+    position:relative;
+    -webkit-animation:canvasAnimation 1s;
+}
+
+#canvas7,#canvas8,#canvas9 {
+    left:-2px;
+}    
+
+@-webkit-keyframes canvasAnimation {
+    0% {
+        -webkit-transform:rotate(90deg);
+        left:0;
+        top:0;
+    }
+}
+
+@-webkit-keyframes h3Animation {
+    0% {
+        -webkit-transform:rotate(90deg);
+        left:0;
+        top:0;
+    }
+}
