@@ -1,0 +1,10 @@
+{
+  "name": "_02.SimpleCalculations",
+  "version": "0.0.0",
+  "description": "02.SimpleCalculations",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

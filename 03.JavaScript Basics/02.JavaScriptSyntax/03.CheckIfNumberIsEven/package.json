@@ -1,0 +1,10 @@
+{
+  "name": "_03.CheckIfNumberIsEven",
+  "version": "0.0.0",
+  "description": "03.CheckIfNumberIsEven",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
