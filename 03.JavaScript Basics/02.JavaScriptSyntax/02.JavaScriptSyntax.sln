@@ -27,6 +27,10 @@ Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "11.DigitAsWord", "11.DigitA
 EndProject
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "12.Variables", "12.Variables\12.Variables.njsproj", "{CD8EFAF7-7E04-441D-835C-451DFD48FF4C}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "13.DigitalSoothsayer", "13.DigitalSoothsayer\13.DigitalSoothsayer.njsproj", "{B28D96CB-A051-4FE3-A330-D63345BCED9D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.CalculateExpression", "14.CalculateExpression\14.CalculateExpression.csproj", "{6C21676C-1ED7-4F18-822C-24BAB2112CAD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{CD8EFAF7-7E04-441D-835C-451DFD48FF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD8EFAF7-7E04-441D-835C-451DFD48FF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD8EFAF7-7E04-441D-835C-451DFD48FF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B28D96CB-A051-4FE3-A330-D63345BCED9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B28D96CB-A051-4FE3-A330-D63345BCED9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B28D96CB-A051-4FE3-A330-D63345BCED9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B28D96CB-A051-4FE3-A330-D63345BCED9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C21676C-1ED7-4F18-822C-24BAB2112CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C21676C-1ED7-4F18-822C-24BAB2112CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C21676C-1ED7-4F18-822C-24BAB2112CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C21676C-1ED7-4F18-822C-24BAB2112CAD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
