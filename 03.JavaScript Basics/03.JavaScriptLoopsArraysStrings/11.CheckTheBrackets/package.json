@@ -1,0 +1,10 @@
+{
+  "name": "_11.CheckTheBrackets",
+  "version": "0.0.0",
+  "description": "11.CheckTheBrackets",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
