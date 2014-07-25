@@ -1,0 +1,10 @@
+{
+  "name": "_03.NumberWithLargestSumOfDigits",
+  "version": "0.0.0",
+  "description": "03.NumberWithLargestSumOfDigits",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
