@@ -1,0 +1,10 @@
+{
+  "name": "_03.MovingLetters",
+  "version": "0.0.0",
+  "description": "03.MovingLetters",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

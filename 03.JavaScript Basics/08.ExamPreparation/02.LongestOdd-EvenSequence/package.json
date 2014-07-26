@@ -1,0 +1,10 @@
+{
+  "name": "_02.LongestOdd_EvenSequence",
+  "version": "0.0.0",
+  "description": "02.LongestOdd-EvenSequence",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
