@@ -1,0 +1,10 @@
+{
+  "name": "_04.Orders",
+  "version": "0.0.0",
+  "description": "04.Orders",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

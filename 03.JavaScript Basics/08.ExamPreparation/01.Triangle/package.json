@@ -1,0 +1,10 @@
+{
+  "name": "_01.Triangle",
+  "version": "0.0.0",
+  "description": "01.Triangle",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

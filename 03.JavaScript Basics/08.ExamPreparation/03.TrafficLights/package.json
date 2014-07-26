@@ -1,0 +1,10 @@
+{
+  "name": "_03.TrafficLights",
+  "version": "0.0.0",
+  "description": "03.TrafficLights",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

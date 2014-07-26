@@ -1,0 +1,10 @@
+{
+  "name": "_02.Joke",
+  "version": "0.0.0",
+  "description": "02.Joke",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

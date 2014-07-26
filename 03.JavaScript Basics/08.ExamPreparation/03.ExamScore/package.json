@@ -1,0 +1,10 @@
+{
+  "name": "_03.ExamScore",
+  "version": "0.0.0",
+  "description": "03.ExamScore",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

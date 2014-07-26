@@ -1,0 +1,10 @@
+{
+  "name": "_01.ATM",
+  "version": "0.0.0",
+  "description": "01.ATM",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
