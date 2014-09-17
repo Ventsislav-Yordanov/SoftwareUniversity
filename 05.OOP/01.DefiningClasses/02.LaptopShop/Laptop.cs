@@ -184,7 +184,7 @@ namespace _02.LaptopShop
 
             if (this.Battery != null)
             {
-                LaptopCharacteristics.AppendLine(this.Battery.ToString());
+                LaptopCharacteristics.Append(this.Battery.ToString());
             }
 
             LaptopCharacteristics.AppendLine("price : " + this.Price + "lv.");
