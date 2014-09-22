@@ -1,0 +1,1 @@
+﻿Point3D name: A, X: 1,5, Y: 3, Z: 5,3, Point3D name: B, X: 2,5, Y: -3, Z: 5,6, Point3D name: C, X: 3,5, Y: 0, Z: 10, Point3D name: D, X: -4,5, Y: 8, Z: 8,3
