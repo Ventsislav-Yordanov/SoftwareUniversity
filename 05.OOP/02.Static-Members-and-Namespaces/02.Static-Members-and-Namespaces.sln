@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paths", "Paths\Paths.csproj", "{35F5DEA8-7078-459F-AEBD-BD58D01E6357}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTMLDispatcher", "HTMLDispatcher\HTMLDispatcher.csproj", "{2C74EC68-758C-4BB8-A758-82A0EE249393}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{35F5DEA8-7078-459F-AEBD-BD58D01E6357}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35F5DEA8-7078-459F-AEBD-BD58D01E6357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35F5DEA8-7078-459F-AEBD-BD58D01E6357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C74EC68-758C-4BB8-A758-82A0EE249393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C74EC68-758C-4BB8-A758-82A0EE249393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C74EC68-758C-4BB8-A758-82A0EE249393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C74EC68-758C-4BB8-A758-82A0EE249393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

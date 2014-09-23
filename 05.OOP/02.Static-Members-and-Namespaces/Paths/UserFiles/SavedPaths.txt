@@ -1,2 +1,2 @@
-﻿Point3D Name : A, X : 1,4, Y : 3, Z : 35,6, Point3D Name : B, X : 3,2, Y : 5, Z : 15,6, Point3D Name : C, X : 1,2, Y : -3, Z : 2,6, Point3D Name : D, X : 2,2, Y : 4, Z : -5,6
-Point3D Name : A, X : 1,4, Y : 3, Z : 35,6, Point3D Name : B, X : 3,2, Y : 5, Z : 15,6, Point3D Name : C, X : 1,2, Y : -3, Z : 2,6, Point3D Name : D, X : 2,2, Y : 4, Z : -5,6
+﻿A{ 1,4,3,35,6 }, B{ 3,2,5,15,6 }, C{ 1,2,-3,2,6 }, D{ 2,2,4,-5,6 }
+A{ 1,4,3,35,6 }, B{ 3,2,5,15,6 }, C{ 1,2,-3,2,6 }, D{ 2,2,4,-5,6 }

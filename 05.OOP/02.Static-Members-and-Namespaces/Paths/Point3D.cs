@@ -68,7 +68,7 @@ namespace Space3D
 
         public override string ToString()
         {
-            return String.Format("Point3D Name : {0}, X : {1}, Y : {2}, Z : {3}", this.Name, this.X, this.Y, this.Z);
+            return String.Format("{3}{{ {0:F},{1:F},{2:F} }}", this.X.ToString(), this.Y.ToString(), this.Z.ToString(), this.Name);
         }
 
         //public static Point3D Deserialize(string pointStr) //deserialize meaning - https://www.wordnik.com/words/deserialize
