@@ -75,7 +75,6 @@ namespace Space3D
         {
             Regex rgx = new Regex(@"(.+?){(.+?),(.+?),(.+?)}");
             MatchCollection matches = rgx.Matches(pointStr);
-            //var g = (matches[0] as Match).Groups;
             var g = (matches[0] as Match).Groups;//http://msdn.microsoft.com/en-us/library/system.text.regularexpressions.match.groups(v=vs.110).aspx
             Point3D point = new Point3D(g[1].Value, double.Parse(g[2].Value), double.Parse(g[3].Value), double.Parse(g[4].Value));
 
