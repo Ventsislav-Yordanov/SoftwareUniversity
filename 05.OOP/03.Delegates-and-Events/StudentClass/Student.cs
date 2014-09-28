@@ -14,7 +14,7 @@ namespace StudentClass
         {
             this.Name = name;
             this.Age = age;
-            this.PropertyChanged += this.GetMessage;
+            this.PropertyChanged += this.GetMessage; // http://www.dotnetperls.com/event
         }
 
 
