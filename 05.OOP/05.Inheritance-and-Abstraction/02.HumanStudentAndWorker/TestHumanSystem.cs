@@ -77,6 +77,7 @@
             foreach (var worker in sortedWokers)
             {
                 Console.WriteLine(worker + string.Format(", money per hour: {0:F2}", worker.MoneyPerHour(5)));
+                //Console.WriteLine(worker);
             }
 
             List<Human> humans = new List<Human>();

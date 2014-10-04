@@ -41,10 +41,10 @@ namespace _02.HumanStudentAndWorker
             return this.WeekSalary / (decimal)(daysPerWeek * this.WorkHoursPerDay);
         }
 
-        public override string ToString() // change it
+        public override string ToString()
         {
             return base.ToString() + string.Format(
-                ", weekly salary: {0:F2}, daily work hours: {0:F2}",
+                ", weekly salary: {0:F2}, daily work hours: {1:F2}",
                 this.WeekSalary,
                 this.WorkHoursPerDay);
         }
