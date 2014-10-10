@@ -135,7 +135,8 @@
                     Console.WriteLine("\n Game over! You died a hero with : {0} points. Enter your nickname : ", counter);
                     string nickname = Console.ReadLine();
                     Ranking winner = new Ranking(nickname, counter);
-                    if (winners.Count < 5)
+                    int winnersLimit = 5;
+                    if (winners.Count < winnersLimit)
                     {
                         winners.Add(winner);
                     }
@@ -152,8 +153,8 @@
                         }
                     }
 
-                    winners.Sort((Ranking r1, Ranking r2) => r2.Name.CompareTo(r1.Name));
-                    winners.Sort((Ranking r1, Ranking r2) => r2.Points.CompareTo(r1.Points));
+                    winners.Sort((Ranking ranking1, Ranking ranking2) => ranking2.Name.CompareTo(ranking1.Name));
+                    winners.Sort((Ranking ranking1, Ranking ranking2) => ranking2.Points.CompareTo(ranking1.Points));
                     GetRanking(winners);
 
                     gameField = CreateGameField();
