@@ -5,7 +5,7 @@ import java.awt.Graphics;
 @SuppressWarnings("serial")
 public class GameApplet extends Applet {
 	private Player game;
-	keyCapturer IH;
+	KeyCapturer IH;
 	
 	public void init(){
 		game = new Player();
@@ -15,7 +15,7 @@ public class GameApplet extends Applet {
 		this.add(game);
 		this.setVisible(true);
 		this.setSize(new Dimension(800, 650));
-		IH = new keyCapturer(game);
+		IH = new KeyCapturer(game);
 	}
 	
 	public void paint(Graphics g){

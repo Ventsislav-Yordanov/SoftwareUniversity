@@ -1,9 +1,9 @@
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-public class keyCapturer implements KeyListener{
+public class KeyCapturer implements KeyListener{
 	
-	public keyCapturer(Player game){
+	public KeyCapturer(Player game){
 		game.addKeyListener(this);
 	}
 	
