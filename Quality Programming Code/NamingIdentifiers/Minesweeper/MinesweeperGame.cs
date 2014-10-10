@@ -292,24 +292,6 @@
             return fieldForPlay;
         }
 
-        private static void Calculate(char[,] field)
-        {
-            int col = field.GetLength(0);
-            int row = field.GetLength(1);
-
-            for (int i = 0; i < col; i++)
-            {
-                for (int j = 0; j < row; j++)
-                {
-                    if (field[i, j] != '*')
-                    {
-                        char count = CountMines(field, i, j);
-                        field[i, j] = count;
-                    }
-                }
-            }
-        }
-
         private static char CountMines(char[,] field, int currentRow, int currentCol)
         {
             int mineCounter = 0;
