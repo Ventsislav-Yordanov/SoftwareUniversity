@@ -60,7 +60,7 @@
             int row = 0;
             int col = 0;
             bool isNewGame = true;
-            const int maxTurns = 35;
+            const int MaxTurns = 35;
             bool areTurnsMaxed = false;
 
             do
@@ -78,8 +78,10 @@
                 command = Console.ReadLine().Trim();
                 if (command.Length >= 3)
                 {
-                    if (int.TryParse(command[0].ToString(), out row) && int.TryParse(command[2].ToString(), out col)
-                        && row <= gameField.GetLength(0) && col <= gameField.GetLength(1))
+                    if (int.TryParse(command[0].ToString(), out row) && 
+                        int.TryParse(command[2].ToString(), out col) && 
+                        row <= gameField.GetLength(0) && 
+                        col <= gameField.GetLength(1))
                     {
                         command = "turn";
                     }
@@ -109,7 +111,7 @@
                                 counter++;
                             }
 
-                            if (maxTurns == counter)
+                            if (MaxTurns == counter)
                             {
                                 areTurnsMaxed = true;
                             }
