@@ -39,7 +39,7 @@
         public override bool Equals(object obj)
         {
             StringDisperser stringDisperser = obj as StringDisperser;
-            // check if object is not StringDisperser
+            // check is object not StringDisperser
             if (stringDisperser == null)
             {
                 return false;
@@ -69,7 +69,7 @@
         public object Clone()
         {
             StringDisperser newStringDisperser = this.MemberwiseClone() as StringDisperser;
-            // check object is StringDisperser
+            // check is object not StringDisperser
             if (newStringDisperser == null)
             {
                 throw new ArgumentNullException("Object can't be casted to StringDisperser type!");
