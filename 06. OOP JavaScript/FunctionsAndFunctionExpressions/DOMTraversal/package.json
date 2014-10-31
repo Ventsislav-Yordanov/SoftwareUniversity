@@ -1,0 +1,10 @@
+{
+  "name": "DOMTraversal",
+  "version": "0.0.0",
+  "description": "DOMTraversal",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

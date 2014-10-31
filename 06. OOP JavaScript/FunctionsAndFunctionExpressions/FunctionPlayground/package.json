@@ -1,0 +1,10 @@
+{
+  "name": "FunctionPlayground",
+  "version": "0.0.0",
+  "description": "FunctionPlayground",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
