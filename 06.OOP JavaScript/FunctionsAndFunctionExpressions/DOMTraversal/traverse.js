@@ -23,7 +23,7 @@
 
         [].forEach.call(element.childNodes, function (child) {
             // info about nodeType: http://www.w3schools.com/jsref/prop_node_nodetype.asp
-            // Check if nosetype is element
+            // Check if nodeType is element
             if (child.nodeType === 1) {
                 traverseElement(child, spacing + "    ");
             }
