@@ -178,11 +178,13 @@ var Point = (function () {
     return Point;
 }());
 
+//var circle = new Circle(5, 10, "#F94", 30);
 //var rectangle = new Rectangle(5, 4, "#FFF", 10, 12);
 //var triangle = new Triangle(6, 4, "#F54", 7, 17, 11, 25);
 //var segment = new Segment(2, 3, "#001", 5, 16);
 //var point = new Point(4, 5, "#ff9");
 
+//console.log(circle.toString());
 //console.log(rectangle.toString());
 //console.log(triangle.toString());
 //console.log(segment.toString());

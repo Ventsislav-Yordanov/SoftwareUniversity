@@ -12,7 +12,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>839fe2e8-a51c-465e-afde-e98604a4f823</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Shape.js</StartupFile>
+    <StartupFile>Shapes.js</StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -30,7 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Shape.js" />
+    <Compile Include="Shapes.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
   </ItemGroup>
