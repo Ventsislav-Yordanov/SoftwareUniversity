@@ -1,0 +1,10 @@
+{
+  "name": "Shapes",
+  "version": "0.0.0",
+  "description": "Shapes",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
