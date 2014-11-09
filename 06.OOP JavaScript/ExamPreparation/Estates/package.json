@@ -1,0 +1,10 @@
+{
+  "name": "Estates",
+  "version": "0.0.0",
+  "description": "Estates",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
