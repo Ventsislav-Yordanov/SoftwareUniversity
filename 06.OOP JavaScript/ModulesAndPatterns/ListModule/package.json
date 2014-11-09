@@ -1,0 +1,10 @@
+{
+  "name": "ListModule",
+  "version": "0.0.0",
+  "description": "ListModule",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

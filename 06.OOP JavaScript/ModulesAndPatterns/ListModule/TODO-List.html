@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Todo List Module</title>
+    <style>
+        #container{
+            width: 800px;
+            border: 2px solid black;
+            margin: 0 auto;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        #container>h1{
+            text-align: center;
+        }
+        #sectionContainer{
+            width: 780px;
+            border: 2px solid gray;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-bottom: 10px;
+            padding-bottom: 50px;
+        }
+        .addItem{
+            width: 210px;
+            float: right;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .content{
+            border-bottom: 1px solid black;
+            display: inline-block;
+            margin-left: 5px;
+            width: 95%;
+            position: relative;
+            padding: 1px;
+            top: -2px;
+        }
+        section{
+            padding: 10px;
+            border: 2px solid gray;
+            clear: both;
+        }
+        section>h2{
+            float: right;
+            margin: 5px 0;
+        }
+        .clearfix:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+        .clearfix { display: inline-block; }
+        /* start commented backslash hack \*/
+        * html .clearfix { height: 1%; }
+        .clearfix { display: block; }
+        /* close commented backslash hack */
+        .contentBox{
+            clear: both;
+        }
+        .checked{
+            background: limegreen;
+        }
+
+        section>div:last-child .content{
+            border: none;
+        }
+        .addNewItem{
+            margin-left: 10px;
+        }
+        .addNewSection{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+
+    </div>
+
+    <script src="ListModule.js"></script>
+    <script>
+        var cont = new ListModule.Container("Thursday TODO List");
+        cont.addToDOM();
+    </script>
+    <script src="addFunctionality.js"></script>
+</body>
+</html>
