@@ -165,7 +165,7 @@ var Point = (function () {
     Point.extends(Shape);
 
     // -----draw-----
-    Point.prototype.draw = function myfunction() {
+    Point.prototype.draw = function () {
         this.canvas().element.beginPath();
         this.canvas().element.fillStyle = this._color;
         this.canvas().element.fillRect(this._x, this._y, 3, 3);
