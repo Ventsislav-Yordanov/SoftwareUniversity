@@ -247,7 +247,6 @@ function processRestaurantManagerCommands(commands) {
             }
 
             Drink.prototype.setIsCarbonated = function (isCarbonated) {
-                // TODO: ADD VALIDATION
                 this._isCarbonated = isCarbonated;
             }
 
@@ -281,7 +280,6 @@ function processRestaurantManagerCommands(commands) {
             }
 
             Meal.prototype.setIsVegan = function (isVegan) {
-                // TODO: ADD VALIDATION
                 this._isVegan = isVegan;
             }
 
@@ -336,7 +334,6 @@ function processRestaurantManagerCommands(commands) {
             }
 
             MainCourse.prototype.setType = function (type) {
-                // TODO: ADD VALIDATION
                 this._type = type;
             }
 
