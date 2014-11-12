@@ -1,6 +1,7 @@
 function processRestaurantManagerCommands(commands) {
     'use strict';
 
+    // LINQ for JavaScript : http://linqjs.codeplex.com/SourceControl/latest#linq.js
     // const Type
     var Types = {
         Boolean: typeof true,
