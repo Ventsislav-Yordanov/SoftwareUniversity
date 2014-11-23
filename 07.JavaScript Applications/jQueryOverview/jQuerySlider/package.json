@@ -1,0 +1,10 @@
+{
+  "name": "jQuerySlider",
+  "version": "0.0.0",
+  "description": "jQuerySlider",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

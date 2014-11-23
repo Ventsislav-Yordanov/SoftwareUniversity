@@ -1,0 +1,10 @@
+{
+  "name": "BackgroundColorSwitch",
+  "version": "0.0.0",
+  "description": "BackgroundColorSwitch",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

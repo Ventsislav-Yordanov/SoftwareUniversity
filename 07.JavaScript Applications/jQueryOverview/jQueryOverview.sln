@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "ElementInsertion", "ElementInsertion\ElementInsertion.njsproj", "{02FA39A8-E1EE-4F6D-AFE7-C571BE36ECB3}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BackgroundColorSwitch", "BackgroundColorSwitch\BackgroundColorSwitch.njsproj", "{36803D84-E561-4595-940C-539E84BAF591}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TableGenerator", "TableGenerator\TableGenerator.njsproj", "{B52E8A1E-1090-465B-B19F-800F41724120}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Slideshow", "Slideshow\Slideshow.njsproj", "{1DEBFDB2-32CE-45AA-8D0C-16F3AD7DBC31}"
+EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "jQuerySlider", "jQuerySlider\jQuerySlider.njsproj", "{E7FDA735-3EE2-4AB1-9B86-5B772D732301}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02FA39A8-E1EE-4F6D-AFE7-C571BE36ECB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02FA39A8-E1EE-4F6D-AFE7-C571BE36ECB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02FA39A8-E1EE-4F6D-AFE7-C571BE36ECB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02FA39A8-E1EE-4F6D-AFE7-C571BE36ECB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36803D84-E561-4595-940C-539E84BAF591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36803D84-E561-4595-940C-539E84BAF591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36803D84-E561-4595-940C-539E84BAF591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36803D84-E561-4595-940C-539E84BAF591}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52E8A1E-1090-465B-B19F-800F41724120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52E8A1E-1090-465B-B19F-800F41724120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52E8A1E-1090-465B-B19F-800F41724120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52E8A1E-1090-465B-B19F-800F41724120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DEBFDB2-32CE-45AA-8D0C-16F3AD7DBC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DEBFDB2-32CE-45AA-8D0C-16F3AD7DBC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DEBFDB2-32CE-45AA-8D0C-16F3AD7DBC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DEBFDB2-32CE-45AA-8D0C-16F3AD7DBC31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7FDA735-3EE2-4AB1-9B86-5B772D732301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FDA735-3EE2-4AB1-9B86-5B772D732301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FDA735-3EE2-4AB1-9B86-5B772D732301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FDA735-3EE2-4AB1-9B86-5B772D732301}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

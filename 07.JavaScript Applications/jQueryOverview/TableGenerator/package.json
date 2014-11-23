@@ -1,0 +1,10 @@
+{
+  "name": "TableGenerator",
+  "version": "0.0.0",
+  "description": "TableGenerator",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

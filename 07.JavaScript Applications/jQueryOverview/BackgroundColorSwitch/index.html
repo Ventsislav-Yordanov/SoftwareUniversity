@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Background Color Switch</title>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="BackgroundColorSwitch.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form>
+        <label for="Class">Enter class [bird or reptile]:</label>
+        <input type="text" name="Class" id="Class">
+        <br />
+        <label for="colorPicker">Color:</label>
+        <input type="color" name="colorPicker" id="colorPicker" value="#0066FF">
+        <br />
+        <input type="button" name="Paint" value="Paint" id="Paint"/>
+    </form>
+    <div id="output">
+        <ul>
+            <li class="bird">Hummingbird</li>
+            <li class="bird">Nightingale</li>
+            <li class="reptile">Lizard</li>
+            <li class="reptile">Snake</li>
+            <li class="bird">Eagle</li>
+            <li class="bird">Sparrow</li>
+        </ul>
+    </div>
+</body>
+</html>
