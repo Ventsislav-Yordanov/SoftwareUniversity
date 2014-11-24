@@ -1,0 +1,10 @@
+{
+  "name": "TreeViewPlugin",
+  "version": "0.0.0",
+  "description": "TreeViewPlugin",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

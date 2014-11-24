@@ -1,0 +1,21 @@
+.treeView {
+    display: block;
+}
+.treeView-item {
+    display: none;
+    position: relative;
+}
+.treeView-item:before {
+    content: "";
+    background: url('Images/arrow.jpg') no-repeat 5px;
+    background-size: 17px;
+    width: 20px;
+    height: 11px;
+    display: inline-block;
+}
+.treeView-item.visible {
+    display: block;
+}
+.visible > .treeView-item {
+    display: block;
+}
