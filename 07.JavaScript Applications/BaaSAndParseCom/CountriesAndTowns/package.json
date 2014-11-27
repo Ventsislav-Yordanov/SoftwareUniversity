@@ -1,0 +1,10 @@
+{
+  "name": "CountriesAndTowns",
+  "version": "0.0.0",
+  "description": "CountriesAndTowns",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}
