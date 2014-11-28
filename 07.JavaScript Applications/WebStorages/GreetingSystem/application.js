@@ -1,8 +1,10 @@
 ﻿(function () {
     $form = $('#inputForm');
-
-    if (!sessionStorage.name) {
-        $name = $('#name').val();
-        sessionStorage.setItem('name', $name);
+    if ($name = $('#name').val() != "") {
+        if (!sessionStorage.name) {
+            $name = $('#name').val();
+            sessionStorage.setItem('name', $name);
+        }
     }
+    
 }());
