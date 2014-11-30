@@ -1,0 +1,10 @@
+{
+  "name": "Poll",
+  "version": "0.0.0",
+  "description": "Poll",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

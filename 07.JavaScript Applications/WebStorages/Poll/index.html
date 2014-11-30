@@ -1,0 +1,121 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Poll system</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <link href="css/myStyles.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="well bs-component col-md-6 col-md-offset-3">
+            <div class="questions-form">
+                <h3 class="timer text-center"></h3>
+                <h1 class="text-center heading">Welcome to Poll System!</h1>
+                <!--First question + answers-->
+                <div class="form-group">
+                    <h2>What is your favorite programming language?</h2>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="C#" name="question1" id="answer1" />C#
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Java" name="question1" id="answer2" />Java
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="PHP" name="question1" id="answer3" />PHP
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="JavaScript" name="question1" id="answer4" />JavaScript
+                        </label>
+                    </div>
+                </div>
+                <!--Second question + answers-->
+                <div class="form-group">
+                    <h2>What is your favorite IDE?</h2>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Visual Studio" name="question2" id="answer5" />Visual Studio
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="PhpStorm" name="question2" id="answer6" />PhpStorm
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="WebStorm" name="question2" id="answer7" />WebStorm
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Eclipse" name="question2" id="answer8" />Eclipse
+                        </label>
+                    </div>
+                </div>
+                <!--Third question + answers-->
+                <div class="form-group">
+                    <h2>What is your favorite season?</h2>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Winter" name="question3" id="answer9" />Winter
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Summer" name="question3" id="answer10" />Summer
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Spring" name="question3" id="answer11" />Spring
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" value="Autumn" name="question3" id="answer12" />Autumn
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <button id="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <!--Result-->
+            <div class="jumbotron result">
+                <div class="row">
+                    <h2 class="col-md-5">Answers: </h2>
+                    <button id="go-back" class="btn btn-default pull-right">
+                        <span class="glyphicon glyphicon-arrow-left"></span> Go back
+                    </button>
+                </div>
+                <div class="row">
+                    <h3>What is your favorite programming language?</h3>
+                    <span>Your answer: </span>
+                    <span class="answer" id="result-answer1"></span>
+                </div>
+                <div class="row">
+                    <h3>What is your favorite IDE?</h3>
+                    <span>Your answer: </span>
+                    <span class="answer" id="result-answer2"></span>
+                </div>
+                <div class="row">
+                    <h3>What is your favorite season?</h3>
+                    <span>Your answer: </span>
+                    <span class="answer" id="result-answer3"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="applicationLogic.js"></script>
+</body>
+</html>

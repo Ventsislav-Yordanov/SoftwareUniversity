@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "GreetingSystem", "GreetingSystem\GreetingSystem.njsproj", "{EB9DAAA0-643E-442A-AC8A-8895AD7CDEA5}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "Poll", "Poll\Poll.njsproj", "{D57B8D79-4A59-4B0D-91BC-B3D2FE38CBE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{EB9DAAA0-643E-442A-AC8A-8895AD7CDEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB9DAAA0-643E-442A-AC8A-8895AD7CDEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB9DAAA0-643E-442A-AC8A-8895AD7CDEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57B8D79-4A59-4B0D-91BC-B3D2FE38CBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57B8D79-4A59-4B0D-91BC-B3D2FE38CBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57B8D79-4A59-4B0D-91BC-B3D2FE38CBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57B8D79-4A59-4B0D-91BC-B3D2FE38CBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
