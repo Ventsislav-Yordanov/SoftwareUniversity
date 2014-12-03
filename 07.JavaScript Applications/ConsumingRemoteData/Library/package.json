@@ -1,0 +1,10 @@
+{
+  "name": "Library",
+  "version": "0.0.0",
+  "description": "Library",
+  "main": "app.js",
+  "author": {
+    "name": "Ventsislav",
+    "email": ""
+  }
+}

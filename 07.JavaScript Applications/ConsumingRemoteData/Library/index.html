@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Library</title>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="JavaScript/ajaxRequester.js"></script>
+    <script src="JavaScript/service.js"></script>
+    <script src="JavaScript/app.js"></script>
+    <style> 
+        input[type=text] {
+            display:block;
+            margin:10px 0;
+        }
+
+        form{
+            max-width:50%;
+            float:left;
+            padding:0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel panel-default">
+        <!-- Default panel contents -->
+        <div class="panel-heading">Books</div>
+        <div class="panel-body">
+            <form>
+                <input type="text" id="inputBookTitle" placeholder="Title" />
+                <input type="text" id="inputBookAuthor" placeholder="Author" />
+                <input type="text" id="inputBookISBN" placeholder="ISBN" />
+                <button type="button" class="btn btn-primary" id="add-book">Add book</button>
+            </form>
+            <form class="edit">
+                <h4>Before click edit, insert all fields</h4>
+                <input type="text" id="inputEditBookTitle" placeholder="Title" />
+                <input type="text" id="inputEditBookAuthor" placeholder="Author" />
+                <input type="text" id="inputEditBookISBN" placeholder="ISBN" />
+            </form>
+        </div>
+        <!-- Table -->
+        <table class="table books">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th>Remove</th>
+                    <th>Edit</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+</html>
