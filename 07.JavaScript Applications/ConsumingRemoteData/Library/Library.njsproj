@@ -12,7 +12,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>2da4c0de-e7cd-4b93-a7d7-f17028040d41</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>JavaScript\app.js</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <StartWebBrowser>False</StartWebBrowser>
     <SearchPath>
     </SearchPath>
@@ -30,9 +31,9 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="JavaScript\app.js" />
     <Compile Include="JavaScript\service.js" />
     <Compile Include="JavaScript\ajaxRequester.js" />
-    <Compile Include="JavaScript\app.js" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap-theme.min.css" />

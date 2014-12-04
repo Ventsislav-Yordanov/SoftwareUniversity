@@ -6,7 +6,6 @@
 
         $('#add-book').on('click', addBook);
     });
-    // $('<button id="edit-book-button" class="btn btn-xs btn-info">')
     var drawBooks = function (data) {
         if (data.results.length > 0) {
             $('.books').append($('<tbody>'));
@@ -19,7 +18,7 @@
                             .append($('<td>').text(book.author))
                             .append($('<td>').text(book.isbn))
                             .append($('<td>').append($('<button class="btn btn-remove btn-xs btn-danger">').text('Remove').on('click', removeBook)))
-                            .append($('<td>').append($('<button class="btn btn-xs btn-info">').data('book', book).text('Edit').on('click', editBook)))
+                            .append($('<td>').append($('<button class="btn btn-xs btn-info">').text('Edit').on('click', editBook)))
 				);
             });
         } else {
@@ -60,7 +59,6 @@
     }
 
     var editBook = function () {
-        var book = $(this).data("book");
         var bookTitle = $('#inputEditBookTitle').val();
         var bookAuthor = $('#inputEditBookAuthor').val();
         var bookISBN = $('#inputEditBookISBN').val();
@@ -69,7 +67,7 @@
             "title": bookTitle,
             "isbn": bookISBN
         };
-        var bookId = book.objectId;
+        var bookId = $(this).parent().parent().attr('book-Id')
 
         service.putBook(bookId, data, function () {
             var thisBookQuery = 'tr[book-id="' + bookId + '"]';
