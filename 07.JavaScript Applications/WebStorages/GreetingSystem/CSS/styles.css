@@ -1,0 +1,21 @@
+body, div, article, aside, header, nav, ul, li, a, p, span, strong, em, footer, section, h1, h2, h3, h4 {
+    margin:0;
+    padding:0;
+}
+
+#wrapper {
+	margin: 10px auto;
+	padding: 10px;
+}
+
+#firstTimeVisit h3 {
+	margin-bottom: 10px;
+}
+
+#visitStatistics h2 {
+	margin-top: 10px;
+}
+
+#interpretation {
+	margin-top: 5px;
+}

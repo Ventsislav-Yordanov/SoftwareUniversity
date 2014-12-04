@@ -1,33 +1,71 @@
-﻿$(document).ready(function () {
-    if (localStorage.name) {
-        $('form').hide();
-        $('#info').text('Hello ' + localStorage.name +
-            ' session visits count:' + sessionStorage.sessionVisitscount +
-            ' total visits count :' + localStorage.totalVisitscount);
-    }
+﻿(function () {
+    // On document ready ----- Short syntax for: $(document).ready(function(){}); -----
+    $(function () {
+        $('#firstTimeVisit').hide();
+        $('#greetingMessage').hide();
 
-    $('#submit').on('click', function () {
-        localStorage.name = $('#name').val();
-    })
+        var addUsername = function () {
+            var username = $('#username').val();
+            // Remove white spaces before and after username
+            if (/^\s*$/.test(username)) {
+                addItemError();
+                $('#addUser').val('');
+                return;
+            }
 
-    function incrementSessionCount() {
-        if (sessionStorage.sessionVisitscount) {
-            sessionStorage.sessionVisitscount++;
-        } else {
-            sessionStorage.sessionVisitscount = 1
+            localStorage.setItem('user', username);
+            $('#firstTimeVisit').hide();
+            $('#greetingMessage').text('Hello ' + username + '!').show();
         }
-    }
 
-    function incrementTotalCount() {
-        if (localStorage.totalVisitscount) {
-            localStorage.totalVisitscount++;
-        } else {
-            localStorage.totalVisitscount = 1
+        $('#addUser').on('click', addUsername);
+
+        var clearHistory = function () {
+            window.localStorage.clear();
+            window.sessionStorage.clear();
+            location.reload(true);
+            $('#greetingMessage').hide();
         }
-    }
 
-    incrementTotalCount();
-    incrementSessionCount();
-})
-    
-    
+        $('#clearHistory').on('click', clearHistory);
+
+        // Check if the user is visiting the page for the first time and get his name or greet him
+        if (!localStorage.getItem('counter')) {
+            localStorage.setItem('counter', 0);
+            $('#firstTimeVisit').show();
+        } else {
+            var user = localStorage.getItem('user');
+            if (user === null) {
+                user = 'unknown user';
+            }
+
+            $('#greetingMessage').text('Hello ' + user + '!');
+            $('#greetingMessage').show();
+        }
+
+        if (!sessionStorage.getItem('counter')) {
+            sessionStorage.setItem('counter', 0);
+        }
+
+        // increment total visits
+        var totalCount = parseInt(localStorage.getItem('counter'));
+        totalCount++;
+        localStorage.setItem('counter', totalCount);
+        $('#totalCount').text(totalCount);
+
+        // increment session visits
+        var sessionCount = parseInt(sessionStorage.getItem('counter'));
+        sessionCount++;
+        sessionStorage.setItem('counter', sessionCount);
+        $('#sessionCount').text(sessionCount);
+
+        function addItemError() {
+            noty({
+                text: 'Text cannot be empty!',
+                type: 'error',
+                layout: 'topCenter',
+                timeout: 1000
+            });
+        }
+    });
+}());
