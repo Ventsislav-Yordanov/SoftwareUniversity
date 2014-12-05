@@ -6,21 +6,11 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/bootstrap-theme.css" rel="stylesheet" />
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="Libs/jquery.noty.packaged.min.js"></script>
     <script src="JavaScript/ajaxRequester.js"></script>
     <script src="JavaScript/service.js"></script>
     <script src="JavaScript/app.js"></script>
-    <style> 
-        input[type=text] {
-            display:block;
-            margin:10px 0;
-        }
-
-        form{
-            max-width:50%;
-            float:left;
-            padding:0 10px;
-        }
-    </style>
+    <link href="css/myStyles.css" rel="stylesheet" />
 </head>
 <body>
     <div class="panel panel-default">
@@ -28,16 +18,18 @@
         <div class="panel-heading">Books</div>
         <div class="panel-body">
             <form>
-                <input type="text" id="inputBookTitle" placeholder="Title" />
-                <input type="text" id="inputBookAuthor" placeholder="Author" />
-                <input type="text" id="inputBookISBN" placeholder="ISBN" />
-                <button type="button" class="btn btn-primary" id="add-book">Add book</button>
+                <h3>Add Book</h3>
+                <input type="text" id="title" placeholder="Title" />
+                <input type="text" id="author" placeholder="Author" />
+                <input type="text" id="isbn" placeholder="ISBN" />
+                <button type="button" class="btn btn-primary" id="addBook">Submit</button>
             </form>
             <form class="edit">
-                <h4>Before click edit, insert all fields</h4>
-                <input type="text" id="inputEditBookTitle" placeholder="Title" />
-                <input type="text" id="inputEditBookAuthor" placeholder="Author" />
-                <input type="text" id="inputEditBookISBN" placeholder="ISBN" />
+                <h3>Edit <span id="edittedBook"></span></h3>
+                <input type="text" id="editTitle" placeholder="Title" />
+                <input type="text" id="editAuthor" placeholder="Author" />
+                <input type="text" id="editIsbn" placeholder="ISBN" />
+                <button type="button" class="btn btn-primary" id="edit">Edit</button>
             </form>
         </div>
         <!-- Table -->
@@ -48,9 +40,9 @@
                     <th>Author</th>
                     <th>ISBN</th>
                     <th>Remove</th>
-                    <th>Edit</th>
                 </tr>
             </thead>
+            <tbody></tbody>
         </table>
     </div>
 </body>

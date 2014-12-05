@@ -1,84 +1,126 @@
-﻿(function () {
+﻿var books = [];
+(function () {
     'use strict';
-
     $(function () {
-        service.getAllBooks(drawBooks, error);
+        service.getAllBooks(loadBooks, error);
+        $('#addBook').on('click', function () {
+            var title = $('#title').val();
+            var author = $('#author').val();
+            var isbn = $('#isbn').val();
 
-        $('#add-book').on('click', addBook);
+            addBook(title, author, isbn);
+        });
+
+        $(document).on('click', '.book', function () {
+            var _this = $(this);
+            var BookTitle = $(_this).find('td:first-child').text();
+            var BookAuthor = $(_this).find('td:nth-child(2)').text();
+            var BookiIsbn = $(_this).find('td:nth-child(3)').text(); 
+
+            $('#edittedBook').text(BookTitle);
+
+            $('#editTitle').val(BookTitle);
+            $('#editAuthor').val(BookAuthor);
+            $('#editIsbn').val(BookiIsbn);
+        });
+
+        $('#edit').on('click', function () {
+            var title = $('#editTitle').val();
+            var author = $('#editAuthor').val();
+            var isbn = $('#editIsbn').val();
+            var objectId = books[$('#edittedBook').text()];
+
+            editBook(title, author, isbn, objectId);
+            $('#edittedBook').val('');
+        });
+        
+        $(document).on('click', '.btn-remove', function () {
+            console.log(this);
+            var objectId = books[$(this).parent().prev().prev().prev().text()];
+            removeBook(objectId);
+        });
+
     });
-    var drawBooks = function (data) {
-        if (data.results.length > 0) {
-            $('.books').append($('<tbody>'));
-            $(data.results).each(function (index, book) {
-                $('.books tbody')
+
+    var loadBooks = function (data) {
+        $('.books tbody').html('');
+        for (var b in data.results) {
+            var book = data.results[b];
+            // add book to array books
+            books[book.title] = book.objectId;
+
+            var removeButton = $('<button class="btn btn-remove btn-xs btn-danger">').text('Delete');
+
+            $('.books tbody')
                     .append(
                         $('<tr>')
-                            .attr('book-Id', book.objectId)
+                            .attr('class', 'book')
                             .append($('<td>').text(book.title))
                             .append($('<td>').text(book.author))
                             .append($('<td>').text(book.isbn))
-                            .append($('<td>').append($('<button class="btn btn-remove btn-xs btn-danger">').text('Remove').on('click', removeBook)))
-                            .append($('<td>').append($('<button class="btn btn-xs btn-info">').text('Edit').on('click', editBook)))
-				);
-            });
-        } else {
-            $('.books').append($('<tbody>').append($('<h1>').text('No Books here.')));
+                            .append($('<td>').append(removeButton))
+			        );
         }
     }
 
-    var addBook = function () {
-        var bookAuthor = $('#inputBookAuthor').val();
-        var bookTitle = $('#inputBookTitle').val();
-        var bookISBN = $('#inputBookISBN').val();
+    var addBook = function (title, author, isbn) {
         var data = {
-            "author": bookAuthor,
-            "title": bookTitle,
-            "isbn": bookISBN
+            title: title,
+            author: author,
+            isbn: isbn
         };
 
-        service.postBook(data, function (data) {
-            $('.books tbody')
-                .append(
-                    $('<tr>')
-                        .attr('book-Id', data.objectId)
-                        .append($('<td>').text(bookTitle))
-                        .append($('<td>').text(bookAuthor))
-                        .append($('<td>').text(bookISBN))
-                        .append($('<td>').append($('<button class="btn btn-remove btn-xs btn-danger">').text('Remove').on('click', removeBook)))
-                        .append($('<td>').append($('<button class="btn btn-xs btn-info">').text('Edit').on('click', editBook)))
-                );
+        service.postBook(data, function () {
+            success('New book successfully added.');
+            var title = $('#title').val('');
+            var author = $('#author').val('');
+            var isbn = $('#isbn').val('');
+            // Reload Books
+            service.getAllBooks(loadBooks, error);
         }, error);
     }
 
-    var removeBook = function () {
-        var bookId = $(this).parent().parent().attr('book-Id');
-        var _this = this;
-        service.deleteBook(bookId, function () {
-            $(_this).parent().parent().remove();
-        }, error);
-    }
-
-    var editBook = function () {
-        var bookTitle = $('#inputEditBookTitle').val();
-        var bookAuthor = $('#inputEditBookAuthor').val();
-        var bookISBN = $('#inputEditBookISBN').val();
+    var editBook = function (title, author, isbn, objectId) {
         var data = {
-            "author": bookAuthor,
-            "title": bookTitle,
-            "isbn": bookISBN
-        };
-        var bookId = $(this).parent().parent().attr('book-Id')
+            title: title,
+            author: author,
+            isbn: isbn
+        }
 
-        service.putBook(bookId, data, function () {
-            var thisBookQuery = 'tr[book-id="' + bookId + '"]';
-            var book = $(thisBookQuery);
-            book.find('td:nth-child(1)').text(bookTitle);
-            book.find('td:nth-child(2)').text(bookAuthor);
-            book.find('td:nth-child(3)').text(bookISBN);
+        service.putBook(objectId, data, function () {
+            success('Book edited successfully');
+            // Reload Books
+            service.getAllBooks(loadBooks, error);
         }, error);
     }
 
-    var error = function () {
-        alert('Error!');
+    var removeBook = function (objectId) {
+        service.deleteBook(objectId, function () {
+            $('#editTitle').val('');
+            $('#editAuthor').val('');
+            $('#editIsbn').val('');
+            $('#edittedBook').val('');
+            success('Book successfully deleted.');
+            // Reload Books
+            service.getAllBooks(loadBooks, error);
+        }, error);
+    }
+
+    function success(message) {
+        noty({
+            text: message,
+            type: 'success',
+            layout: 'topCenter',
+            timeout: 1000
+        });
+    }
+
+    function error () {
+        noty({
+            text: 'An error has occurred!',
+            type: 'error',
+            layout: 'topCenter',
+            timeout: 1000
+        });
     }
 }());

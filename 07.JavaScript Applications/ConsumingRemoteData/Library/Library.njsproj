@@ -34,6 +34,7 @@
     <Compile Include="JavaScript\app.js" />
     <Compile Include="JavaScript\service.js" />
     <Compile Include="JavaScript\ajaxRequester.js" />
+    <Compile Include="Libs\jquery.noty.packaged.min.js" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap-theme.min.css" />
@@ -51,6 +52,7 @@
     <Folder Include="css\" />
     <Folder Include="fonts\" />
     <Folder Include="JavaScript\" />
+    <Folder Include="Libs\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
 </Project>
