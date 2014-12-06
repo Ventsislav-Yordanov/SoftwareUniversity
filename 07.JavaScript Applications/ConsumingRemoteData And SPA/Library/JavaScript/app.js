@@ -100,6 +100,7 @@
             $('#editAuthor').val('');
             $('#editIsbn').val('');
             $('#edittedBook').val('');
+            $('#edittedBook').text('');
             success('Book successfully deleted.');
             // Reload Books
             service.getAllBooks(loadBooks, error);
