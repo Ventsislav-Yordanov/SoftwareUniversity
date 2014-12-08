@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "StudentsCollection", "StudentsCollection\StudentsCollection.njsproj", "{A58F6921-CB2D-4DC3-89EA-CFDC657F1678}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "BookStore", "BookStore\BookStore.njsproj", "{5A7B50A8-768E-4D2B-A025-2B6AFB245110}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A58F6921-CB2D-4DC3-89EA-CFDC657F1678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A58F6921-CB2D-4DC3-89EA-CFDC657F1678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A58F6921-CB2D-4DC3-89EA-CFDC657F1678}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A7B50A8-768E-4D2B-A025-2B6AFB245110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A7B50A8-768E-4D2B-A025-2B6AFB245110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A7B50A8-768E-4D2B-A025-2B6AFB245110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A7B50A8-768E-4D2B-A025-2B6AFB245110}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -52,7 +52,7 @@
         }
     );
 
-    console.log('---------- All students whose first name is alphabetically before their last name ----------');
+    console.log('---------- The names of all students from Bulgaria ----------');
     _.each(studentsFromBulgaria, function (student) {
         console.log(student);
     });
