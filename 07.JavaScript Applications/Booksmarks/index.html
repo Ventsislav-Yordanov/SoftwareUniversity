@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookmarks</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="jquery.noty.packaged.min.js"></script>
+    <script src="ajaxRequester.js"></script>
+    <script src="service.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="homeView">
+            <header>
+                <h1>Bookmarks</h1>
+            </header>
+            <main>
+                <h2>Welcome</h2>
+                <button id="login">Login</button>
+                <button id="register">Register</button>
+            </main>
+            <footer>
+                <h3>&#169; 2014 by SoftUni Foundation, No Rights Reserved</h3>
+            </footer>
+        </div>
+        <div id="loginView">
+            <header>
+                <h1>Bookmarks</h1>
+            </header>
+            <h1>Login</h1>
+            <label for="usernameLogin">Username: </label>
+            <input type="text" id="usernameLogin"/>
+            <label for="passwordLogin">Password: </label>
+            <input type="password" id="passwordLogin"/>
+            <button id="submitLogin">Login</button>
+            <footer>
+                <h3>&#169; 2014 by SoftUni Foundation, No Rights Reserved</h3>
+            </footer>
+        </div>
+        <div id="registerView">
+            <header>
+                <h1>Bookmarks</h1>
+            </header>
+            <h1>Register</h1>
+            <label for="usernameRegister">Username: </label>
+            <input type="text" id="usernameRegister"/>
+            <label for="passwordRegister">Password: </label>
+            <input type="password" id="passwordRegister"/>
+            <button id="submitRegister">Register</button>
+            <footer>
+                <h3>&#169; 2014 by SoftUni Foundation, No Rights Reserved</h3>
+            </footer>
+        </div>
+        <div id="bookmarksView">
+            <header>
+                <h1>Bookmarks</h1>
+                <h1 id="greeting"></h1>
+                <button id="logout">Logout</button>
+            </header>
+            <form>
+                <h3>Add Bookmark</h3>
+                <input type="text" id="title" placeholder="Title" />
+                <input type="url" id="url" placeholder="Url" />
+                <button type="button" id="addBookmark">Submit</button>
+            </form>
+            <div id="bookmarks"></div>
+            <footer>
+                <h3>&#169; 2014 by SoftUni Foundation, No Rights Reserved</h3>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>

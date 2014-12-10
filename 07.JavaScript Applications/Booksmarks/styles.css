@@ -1,0 +1,25 @@
+input {
+    display: block;
+    margin: 5px 0;
+}
+
+#bookmarksView form, .bookmark {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+
+.bookmark button {
+    display: block;
+    margin: 4px 0;
+}
+
+#bookmarks {
+    margin: 10px 0;
+}
+
+#logout {
+    margin: 10px;
+}
