@@ -7,6 +7,7 @@
         $('#homeView').show();
         if(sessionStorage.length > 0) {
             $('#wrapper > *').hide();
+            $('#greeting').text('Welcome ' + sessionStorage.name);
             $('#bookmarksView').show();
             service.getAllBookmarks(loadBookmarks, function(){
                 error('Cannot load bookmarks!');
