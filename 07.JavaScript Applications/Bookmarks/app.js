@@ -174,7 +174,8 @@
             text: 'Delete this bookmark?',
             type: 'confirm',
             layout: 'topCenter',
-            buttons: [
+            buttons:
+            [
                 {
                     text: 'Yes',
                     onClick: function($noty){
