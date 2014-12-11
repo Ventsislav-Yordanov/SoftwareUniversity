@@ -11,6 +11,10 @@ input {
     margin: 5px;
 }
 
+.bookmark {
+    background-color: #E7E7E7;
+}
+
 .bookmark button {
     display: block;
     margin: 4px 0;
@@ -20,6 +24,6 @@ input {
     margin: 10px 0;
 }
 
-#logout {
+header, main {
     margin: 10px;
 }

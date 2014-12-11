@@ -47,6 +47,31 @@
             deleteBookmark(id);
         })
 
+
+        // ----- Edit bookmark -----
+        $(document).on('click', '.bookmark', function () {
+            var _this = $(this);//---------------------------------------------
+            var BookTitle = $(this).find('div:first-child').text();
+            var BookUrl = $(this).find('a').text();
+
+            $('#edittedBookmark').text(BookTitle);
+
+            $('#editTitle').val(BookTitle);
+            $('#editUrl').val(BookUrl);
+
+            sessionStorage.bookmarkId = $(this).attr('id');
+
+        });
+
+        $('#editBookmark').on('click', function () {
+            var title = $('#editTitle').val();
+            var url = $('#editUrl').val();
+            var objectId = sessionStorage.bookmarkId;
+
+            editBookmark(title, url, objectId);
+            $('#edittedBook').val('');
+        });
+
         // ----- Logout -----
         $('#logout').on('click', function(){
             sessionStorage.clear();
@@ -132,8 +157,8 @@
         }
 
         service.postBookmark(data, function(){
-            var title = $('#title');
-            var url = $('#url');
+            $('#title').val('');
+            $('#url').val('');
             success('Bookmark added.');
 
             service.getAllBookmarks(loadBookmarks , function(){
@@ -146,7 +171,10 @@
 
     var deleteBookmark = function(id){
         service.deleteBookmark(id, function(){
-            success('Bookmark successfully deleted.')
+            success('Bookmark successfully deleted.');
+            $('#editTitle').val('');
+            $('#editUrl').val('');
+            $('#edittedBookmark').text('');
             service.getAllBookmarks(loadBookmarks, function(){
                 error('Cannot load bookmarks!');
             })
@@ -154,6 +182,26 @@
             error('Bookmark delete error.')
         })
     };
+
+    var editBookmark = function(title, url, objectId){
+        var data = {
+            title: title,
+            url: url
+        }
+
+        service.putBookmark(objectId, data, function(){
+            success('Bookmark edit successfully.');
+            sessionStorage.removeItem('bookmarkId');
+            $('#editTitle').val('');
+            $('#editUrl').val('');
+            $('#edittedBookmark').text('');
+            service.getAllBookmarks(loadBookmarks, function(){
+                error('Cannot load bookmarks!');
+            })
+        }, function(){
+            error('Bookmark edit error!');
+        })
+    }
 
     function success(message) {
         noty({

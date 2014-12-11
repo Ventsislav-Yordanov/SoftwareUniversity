@@ -28,12 +28,14 @@
             <header>
                 <h1>Bookmarks</h1>
             </header>
-            <h1>Login</h1>
-            <label for="usernameLogin">Username: </label>
-            <input type="text" id="usernameLogin"/>
-            <label for="passwordLogin">Password: </label>
-            <input type="password" id="passwordLogin"/>
-            <button id="submitLogin">Login</button>
+            <main>
+                <h1>Login</h1>
+                <label for="usernameLogin">Username: </label>
+                <input type="text" id="usernameLogin"/>
+                <label for="passwordLogin">Password: </label>
+                <input type="password" id="passwordLogin"/>
+                <button id="submitLogin">Login</button>
+            </main>
             <footer>
                 <h3>&#169; 2014 by SoftUni Foundation, No Rights Reserved</h3>
             </footer>
@@ -42,12 +44,14 @@
             <header>
                 <h1>Bookmarks</h1>
             </header>
-            <h1>Register</h1>
-            <label for="usernameRegister">Username: </label>
-            <input type="text" id="usernameRegister"/>
-            <label for="passwordRegister">Password: </label>
-            <input type="password" id="passwordRegister"/>
-            <button id="submitRegister">Register</button>
+            <main>
+                <h1>Register</h1>
+                <label for="usernameRegister">Username: </label>
+                <input type="text" id="usernameRegister"/>
+                <label for="passwordRegister">Password: </label>
+                <input type="password" id="passwordRegister"/>
+                <button id="submitRegister">Register</button>
+            </main>
             <footer>
                 <h3>&#169; 2014 by SoftUni Foundation, No Rights Reserved</h3>
             </footer>
@@ -63,6 +67,12 @@
                 <input type="text" id="title" placeholder="Title" />
                 <input type="url" id="url" placeholder="Url" />
                 <button type="button" id="addBookmark">Submit</button>
+            </form>
+            <form>
+                <h3>Edit <span id="edittedBookmark"></span></h3>
+                <input type="text" id="editTitle" placeholder="Title" />
+                <input type="url" id="editUrl" placeholder="Url" />
+                <button type="button" id="editBookmark">Submit</button>
             </form>
             <div id="bookmarks"></div>
             <footer>
