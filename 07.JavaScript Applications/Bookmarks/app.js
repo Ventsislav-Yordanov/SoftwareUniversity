@@ -195,6 +195,9 @@
                 {
                     text: 'Cancel',
                     onClick: function($noty){
+                        $('#editTitle').val('');
+                        $('#editUrl').val('');
+                        $('#edittedBookmark').text('');
                         $noty.close();
                     }
                 }
