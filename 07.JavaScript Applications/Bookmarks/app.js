@@ -5,6 +5,8 @@
         // ----- show Home view -----
         $('#wrapper > *').hide();
         $('#homeView').show();
+
+        // ----- check for logged user -----
         if(sessionStorage.length > 0) {
             $('#wrapper > *').hide();
             $('#greeting').text('Welcome ' + sessionStorage.name);
@@ -47,10 +49,8 @@
             deleteBookmark(id);
         })
 
-
         // ----- Edit bookmark -----
         $(document).on('click', '.bookmark', function () {
-            var _this = $(this);//---------------------------------------------
             var BookTitle = $(this).find('div:first-child').text();
             var BookUrl = $(this).find('a').text();
 
@@ -170,17 +170,36 @@
     }
 
     var deleteBookmark = function(id){
-        service.deleteBookmark(id, function(){
-            success('Bookmark successfully deleted.');
-            $('#editTitle').val('');
-            $('#editUrl').val('');
-            $('#edittedBookmark').text('');
-            service.getAllBookmarks(loadBookmarks, function(){
-                error('Cannot load bookmarks!');
-            })
-        }, function(){
-            error('Bookmark delete error.')
-        })
+        noty({
+            text: 'Delete this bookmark?',
+            type: 'confirm',
+            layout: 'topCenter',
+            buttons: [
+                {
+                    text: 'Yes',
+                    onClick: function($noty){
+                        service.deleteBookmark(id, function(){
+                            success('Bookmark successfully deleted.');
+                            $('#editTitle').val('');
+                            $('#editUrl').val('');
+                            $('#edittedBookmark').text('');
+                            service.getAllBookmarks(loadBookmarks, function(){
+                                error('Cannot load bookmarks!');
+                            })
+                        }, function(){
+                            error('Bookmark delete error.')
+                        })
+                        $noty.close();
+                    }
+                },
+                {
+                    text: 'Cancel',
+                    onClick: function($noty){
+                        $noty.close();
+                    }
+                }
+            ]
+        });
     };
 
     var editBookmark = function(title, url, objectId){

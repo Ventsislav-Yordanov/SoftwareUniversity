@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="19" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.2735043" vertical-offset="741" max-vertical-offset="1513">
+            <state line="53" column="19" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-23.807692" vertical-offset="282" max-vertical-offset="1513">
               <folding />
             </state>
           </provider>
@@ -44,16 +44,16 @@
       <file leaf-file-name="ajaxRequester.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ajaxRequester.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="24" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="765">
+            <state line="12" column="24" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="32" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="3876">
+            <state line="178" column="32" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.25040916" vertical-offset="2873" max-vertical-offset="4199">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="service.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="79" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="578">
+            <state line="18" column="79" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
               <folding />
             </state>
           </provider>
@@ -81,9 +81,9 @@
         <option value="$PROJECT_DIR$/ajaxRequester.js" />
         <option value="$PROJECT_DIR$/test.php" />
         <option value="$PROJECT_DIR$/service.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -184,7 +184,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -192,7 +192,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -476,6 +476,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="12" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="19" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-23.807692" vertical-offset="282" max-vertical-offset="1513">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ajaxRequester.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="24" selection-start="528" selection-end="528" vertical-scroll-proportion="0.0" vertical-offset="154" max-vertical-offset="765">
@@ -492,21 +506,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="32" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="3876">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="12" selection-start="357" selection-end="357" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="19" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.2735043" vertical-offset="741" max-vertical-offset="1513">
+        <state line="178" column="32" selection-start="5865" selection-end="5865" vertical-scroll-proportion="0.25040916" vertical-offset="2873" max-vertical-offset="4199">
           <folding />
         </state>
       </provider>
