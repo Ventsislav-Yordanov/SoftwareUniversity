@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bind image source</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.28/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <style>
+        img {
+            display: block;
+            margin: 10px 0;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body ng-app="InputBindImage">
+    <input type="url" placeholder="enter img url here" data-ng-model="imageUrl"/>
+    <img src="{{imageUrl}}" alt="image"/>
+</body>
+</html>

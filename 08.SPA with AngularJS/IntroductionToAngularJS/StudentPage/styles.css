@@ -1,0 +1,21 @@
+#photo, #info {
+    display: inline-block;
+}
+
+#photo {
+    margin-right: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    margin-bottom: 12px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 10px 0;
+}
