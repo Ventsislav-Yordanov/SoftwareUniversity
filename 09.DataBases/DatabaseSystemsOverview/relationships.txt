@@ -1,0 +1,15 @@
+Relationships have multiplicity:
+One-to-many – e.g. country / towns
+Many-to-many – e.g. student / course
+One-to-one – e.g. example human / student
+
+Relationship one-to-many (or many-to-one) – used often
+A single record in the first table has many corresponding records in the second table
+
+Relationship many-to-many
+Records in the first table have many corresponding records in the second one and vice versa
+Implemented through additional table
+
+Relationship one-to-one
+A single record in a table corresponds to a single record in the other table
+Used to model inheritance between tables

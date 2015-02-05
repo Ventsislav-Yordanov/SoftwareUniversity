@@ -1,0 +1,45 @@
+------ Integrity Constraints ------
+
+Before one can start to implement the database tables, one must define the integrity constraints. Intergrity means something like 'be right' and consistent. The data in a database must be right and in good condition.
+
+There are the domain integrity, the entity integrity, the referential integrity and the foreign key integrity constraints.
+
+
+*** Domain Integrity ***
+Domain integrity means the definition of a valid set of values for an attribute. You define 
+- data type, 
+- lenght or size
+- is null value allowed
+- is the value unique or not
+for an attribute.
+
+You may also define the default value, the range (values in between) and/or specific values for the attribute. Some DBMS allow you to define the output format and/or input mask for the attribute.
+
+These definitions ensure that a specific attribute will have a right and proper value in the database.
+Entity Integrity Constraint
+
+
+*** Entity Integrity Constraint ***
+The entity integrity constraint states that primary keys can't be null. There must be a proper value in the primary key field.
+
+This is because the primary key value is used to identify individual rows in a table. If there were null values for primary keys, it would mean that we could not indentify those rows.
+
+On the other hand, there can be null values other than primary key fields. Null value means that one doesn't know the value for that field. Null value is different from zero value or space.
+
+
+*** Referential Integrity Constraint ***
+The referential integrity constraint is specified between two tables and it is used to maintain the consistency among rows between the two tables.
+
+The rules are:
+1. You can't delete a record from a primary table if matching records exist in a related table.
+2. You can't change a primary key value in the primary table if that record has related records.
+3. You can't enter a value in the foreign key field of the related table that doesn't exist in the primary key of the primary table.
+4. However, you can enter a Null value in the foreign key, specifying that the records are unrelated.
+
+There are two foreign key integrity constraints: cascade update related fields and cascade delete related rows. These constraints affect the referential integrity constraint.
+
+- Cascade Update Related Fields
+Any time you change the primary key of a row in the primary table, the foreign key values are updated in the matching rows in the related table. This constraint overrules rule 2 in the referential integrity constraints. 
+
+- Cascade Delete Related Rows
+Any time you delete a row in the primary table, the matching rows are automatically deleted in the related table. This constraint overrules rule 1 in the referential integrity constraints. 

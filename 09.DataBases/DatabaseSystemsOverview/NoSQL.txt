@@ -1,0 +1,35 @@
+----- What is NoSQL Database? -----
+NoSQL (non-relational) databases
+	* Use document-based model (non-relational)
+	* Schema-free document storage
+		- Still support CRUD operations(create, read, update, delete)
+		- Still support indexing and querying
+		- Still supports concurrency  and transactions
+	* Highly optimized for append / retrieve
+	* Great performance and scalability
+
+	
+----- Relational vs. NoSQL Databases -----
+Relational databases
+	* Data stored as table rows
+	* Relationships between related rows
+	* Single entity spans multiple tables
+	* RDBMS systems are very mature, rock solid
+
+NoSQL databases
+	* Data stored as documents
+	* Single entity (document) is a single record
+	* Documents do not have a fixed structure
+	
+	
+----- NoSQL Database Systems -----
+	* Redis
+		- Ultra-fast in-memory data structures server
+	* MongoDB
+		- Mature and powerful JSON-document database
+	* CouchDB
+		- JSON-based document database with REST API
+	* Cassandra
+		- Distributed wide-column database
+	* DB Ranking: http://db-engines.com/en/ranking
+

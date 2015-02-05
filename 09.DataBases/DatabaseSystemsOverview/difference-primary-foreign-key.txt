@@ -1,0 +1,8 @@
+----- PRIMARY KEY -----
+The PRIMARY KEY constraint uniquely identifies each record in a database table.
+Primary keys must contain unique values.
+A primary key column cannot contain NULL values.
+Most tables should have a primary key, and each table can have only ONE primary key.
+
+----- FOREIGN KEY -----
+FOREIGN KEY in one table points to a PRIMARY KEY in another table.

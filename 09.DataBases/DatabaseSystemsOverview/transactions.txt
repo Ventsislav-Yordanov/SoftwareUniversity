@@ -1,0 +1,9 @@
+A transaction comprises a unit of work performed within a database management system (or similar system) against a database, and treated in a coherent and reliable way independent of other transactions. A transaction generally represents any change in database. Transactions in a database environment have two main purposes:
+	1.To provide reliable units of work that allow correct recovery from failures and keep a database consistent even in cases of system failure, when execution 	stops (completely or partially) and many operations upon a database remain uncompleted, with unclear status.
+	2.To provide isolation between programs accessing a database concurrently. If this isolation is not provided, the program's outcome are possibly erroneous.
+	
+A database transaction, by definition, must be atomic, consistent, isolated and durable.[1] Database practitioners often refer to these properties of database transactions using the acronym ACID.
+
+Transactions provide an "all-or-nothing" proposition, stating that each work-unit performed in a database must either complete in its entirety or have no effect whatsoever. Further, the system must isolate each transaction from other transactions, results must conform to existing constraints in the database, and transactions that complete successfully must get written to durable storage.
+
+Databases and other data stores which treat the integrity of data as paramount often include the ability to handle transactions to maintain the integrity of data. A single transaction consists of one or more independent units of work, each reading and/or writing information to a database or other data store. When this happens it is often important to ensure that all such processing leaves the database or data store in a consistent state.

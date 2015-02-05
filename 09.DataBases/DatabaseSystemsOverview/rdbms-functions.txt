@@ -1,0 +1,2 @@
+- Creating / altering / deleting tables and relationships between them (database schema)
+- Adding, changing, deleting, searching and retrieving of data ows stored in the tables

@@ -1,0 +1,5 @@
+SQL is a standard language for accessing databases.
+Example of SQL SELECT query:
+	SELECT Towns.Name, Countries.Name
+	FROM Towns, Countries
+	WHERE Towns.CountryId = Countries.Id
