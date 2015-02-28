@@ -8,10 +8,10 @@ ORDER BY Title ASC
 -- Problem 2.	Ads in Date Range --
 -- Find all ads created between 26-December-2014 (00:00:00) and 1-January-2015 (23:59:59) sorted by date. --
 -- Submit for evaluation the result grid with headers. --
-SELECT Title, [Date] 
-FROM Ads
-WHERE [Date] >= '2014/12/26' AND [Date] < '2015/01/02'
-ORDER BY [Date], Title
+SELECT Title, Date 
+from Ads
+WHERE Date > '26-dec-2014' AND Date < '2-jan-2015'
+ORDER by [Date]
 
 -- Problem 3.	* Ads with "Yes/No" Images --
 -- Display all ad titles and dates along with a column named "Has Image" holding "yes" or "no" for all ads -- 
