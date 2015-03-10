@@ -51,7 +51,6 @@
     <Compile Include="Address.cs">
       <DependentUpon>SoftUni.tt</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
     <Compile Include="Department.cs">
       <DependentUpon>SoftUni.tt</DependentUpon>
     </Compile>

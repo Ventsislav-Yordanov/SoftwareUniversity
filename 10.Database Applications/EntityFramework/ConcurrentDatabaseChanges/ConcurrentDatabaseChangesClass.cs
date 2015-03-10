@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SoftUni.Entities;
-
-namespace ConcurrentDatabaseChanges
+﻿namespace ConcurrentDatabaseChanges
 {
+    using System;
+    using SoftUni.Entities;
+
     class ConcurrentDatabaseChangesClass
     {
         static void Main(string[] args)

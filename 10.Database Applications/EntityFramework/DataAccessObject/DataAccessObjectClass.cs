@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SoftUni.Entities;
-
-namespace DataAccessObject
+﻿namespace DataAccessObject
 {
+    using System;
+    using SoftUni.Entities;
+
     class DataAccessObjectClass
     {
         private static SoftUniEntities softUniEntities = new SoftUniEntities();

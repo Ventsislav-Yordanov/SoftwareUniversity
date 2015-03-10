@@ -1,13 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SoftUni.Entities;
-using System.Data.Linq;
-
-namespace EntitiesExtender
+﻿namespace EntitiesExtender
 {
+    using System.Data.Linq;
+
     public partial class Employee
     {
         private EntitySet<Territory> territories;

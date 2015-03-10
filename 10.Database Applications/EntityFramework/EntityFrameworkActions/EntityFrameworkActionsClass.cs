@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SoftUni.Entities;
-
-namespace EntityFrameworkActions
+﻿namespace EntityFrameworkActions
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using SoftUni.Entities;
+
     class EntityFrameworkActionsClass
     {
         private static SoftUniEntities softUniEntities = new SoftUniEntities();
