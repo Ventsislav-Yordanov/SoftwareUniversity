@@ -13,11 +13,6 @@
         {
             var data = new StudentSystemData();
 
-            foreach (var student in data.Students.All())
-            {
-                Console.WriteLine(student.Name);
-            }
-
             AddCourse(
                 data,
                 "C# Basics",
