@@ -1,0 +1,31 @@
+-- Create the database [ATMDB] if it does not exist
+IF NOT EXISTS (SELECT name FROM master.dbo.sysdatabases WHERE name = 'ATMDB')
+  CREATE DATABASE ATMDB
+  COLLATE Latin1_General_CI_AI
+GO
+
+USE ATMDB
+GO
+
+IF OBJECT_ID('CardAccounts') IS NOT NULL
+	DROP TABLE CardAccounts
+
+CREATE TABLE CardAccounts
+(
+	Id INT IDENTITY(1,1) NOT NULL,
+	CardNumber CHAR(10) NOT NULL,
+	CardPIN CHAR(4) NOT NULL,
+	CardCash MONEY DEFAULT 0 NOT NULL,
+	CONSTRAINT PK_CardAccounts PRIMARY KEY(Id)
+)
+GO
+
+INSERT INTO CardAccounts(CardNumber, CardPIN, CardCash)
+VALUES
+('1234567890', '0609', 2300),
+('1235423462', '5550', 6454),
+('1234534562', '3470', 5684),
+('1234524522', '0043', 1478),
+('1235948890', '3224', 9000),
+('6546327890', '3220', 2460),
+('5428747834', '0050', 2555)
