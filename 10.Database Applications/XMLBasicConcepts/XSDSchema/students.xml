@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<students:students culture="en-US" xmlns:students="http://students.bg/">
+    <students:student>
+		<students:name>Pesho</students:name>
+		<students:gender>Male</students:gender>
+		<students:birth-date>19.01.1990</students:birth-date>
+		<students:phone-number>0883447619</students:phone-number>
+		<students:email>peshoSwag@abv.bg</students:email>
+		<students:university>SoftUni</students:university>
+		<students:speciality>C# Developer</students:speciality>
+		<students:faculty-number>315432125</students:faculty-number>
+		<students:exams>
+			<exam>
+				<name>C# Basics</name>
+				<date-taken>25.10.2014</date-taken>
+				<grade>5.10</grade>
+			</exam>
+			<exam>
+				<name>C# OOP</name>
+				<date-taken>10.12.2014</date-taken>
+				<grade>6.00</grade>
+			</exam>
+		</students:exams>
+	</students:student>
+	<students:student>
+		<students:name>Petranka</students:name>
+		<students:gender>Female</students:gender>
+		<students:birth-date>20.04.1993</students:birth-date>
+		<students:phone-number>0883237374</students:phone-number>
+		<students:email>petranka93@abv.bg</students:email>
+		<students:university>SoftUni</students:university>
+		<students:speciality>C# Developer</students:speciality>
+		<students:faculty-number>315462167</students:faculty-number>
+		<students:exams>
+			<exam>
+				<name>C# Basics</name>
+				<date-taken>25.10.2014</date-taken>
+				<grade>4.58</grade>
+			</exam>
+			<exam>
+				<name>C# OOP</name>
+				<date-taken>10.12.2014</date-taken>
+				<grade>5.48</grade>
+			</exam>
+		</students:exams>
+	</students:student>
+</students:students>

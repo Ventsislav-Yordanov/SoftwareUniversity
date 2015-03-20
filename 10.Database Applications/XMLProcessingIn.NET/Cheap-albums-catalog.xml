@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<albums name="Catalog" culture="en-US">
+  <album>
+    <name>The King of Limbs</name>
+    <artist>Radiohead</artist>
+    <year>2011</year>
+    <producer>Nigel Godrich</producer>
+    <price>20.00</price>
+    <songs>
+      <song>
+        <title>Bloom</title>
+        <duration>5:15</duration>
+      </song>
+      <song>
+        <title>Codex</title>
+        <duration>4:47</duration>
+      </song>
+      <song>
+        <title>Separator</title>
+        <duration>5:20</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>OK Computer</name>
+    <artist>Radiohead</artist>
+    <year>2011</year>
+    <producer>Nigel Godrich</producer>
+    <price>15.00</price>
+    <songs>
+      <song>
+        <title>Airbag</title>
+        <duration>4:44</duration>
+      </song>
+      <song>
+        <title>Let Down</title>
+        <duration>4:59</duration>
+      </song>
+      <song>
+        <title>Lucky</title>
+        <duration>4:19</duration>
+      </song>
+    </songs>
+  </album>
+</albums>
