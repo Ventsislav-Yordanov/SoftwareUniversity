@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Football.Entities", "Football.Entities\1.Football.Entities.csproj", "{5EAB8AB9-D666-4085-9E14-34971A30A102}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.ExportLeaguesAndTeamsAsJSON", "ExportLeaguesAndTeamsAsJSON\2.ExportLeaguesAndTeamsAsJSON.csproj", "{63EE70AA-32E5-4BB7-AB18-D6451CDD8371}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.ExportInternationalMatchesAsXML", "ExportInternationalMatchesAsXML\3.ExportInternationalMatchesAsXML.csproj", "{146AD5A8-67A7-409D-A196-5AC0AFFCE650}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4.ImportLeaguesAndTeamsFromXML", "ImportLeaguesAndTeamsFromXML\4.ImportLeaguesAndTeamsFromXML.csproj", "{8E9F0D0D-7B6C-4DD4-80FB-3725A58282E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.Phonebook", "Phonebook\6.Phonebook.csproj", "{DFB8528B-375D-4C70-9231-19258E394C3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7.ImportContactsFromJSON", "ImportContactsFromJSON\7.ImportContactsFromJSON.csproj", "{49BC3897-88C7-47FF-A89F-181B7B105E9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EAB8AB9-D666-4085-9E14-34971A30A102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAB8AB9-D666-4085-9E14-34971A30A102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAB8AB9-D666-4085-9E14-34971A30A102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAB8AB9-D666-4085-9E14-34971A30A102}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EE70AA-32E5-4BB7-AB18-D6451CDD8371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EE70AA-32E5-4BB7-AB18-D6451CDD8371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EE70AA-32E5-4BB7-AB18-D6451CDD8371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EE70AA-32E5-4BB7-AB18-D6451CDD8371}.Release|Any CPU.Build.0 = Release|Any CPU
+		{146AD5A8-67A7-409D-A196-5AC0AFFCE650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146AD5A8-67A7-409D-A196-5AC0AFFCE650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146AD5A8-67A7-409D-A196-5AC0AFFCE650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146AD5A8-67A7-409D-A196-5AC0AFFCE650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9F0D0D-7B6C-4DD4-80FB-3725A58282E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9F0D0D-7B6C-4DD4-80FB-3725A58282E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9F0D0D-7B6C-4DD4-80FB-3725A58282E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9F0D0D-7B6C-4DD4-80FB-3725A58282E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB8528B-375D-4C70-9231-19258E394C3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB8528B-375D-4C70-9231-19258E394C3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB8528B-375D-4C70-9231-19258E394C3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB8528B-375D-4C70-9231-19258E394C3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49BC3897-88C7-47FF-A89F-181B7B105E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BC3897-88C7-47FF-A89F-181B7B105E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BC3897-88C7-47FF-A89F-181B7B105E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BC3897-88C7-47FF-A89F-181B7B105E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
