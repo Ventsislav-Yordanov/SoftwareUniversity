@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculatorSOAPService", "DistanceCalculatorSOAPService\DistanceCalculatorSOAPService.csproj", "{BBBA1EB6-8B07-4319-AF69-4A66572A4A76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculatorClient", "DistanceCalculatorClient\DistanceCalculatorClient.csproj", "{8234A488-44A4-4ED0-A372-A98DD5A44837}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBBA1EB6-8B07-4319-AF69-4A66572A4A76} = {BBBA1EB6-8B07-4319-AF69-4A66572A4A76}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculatorRESTService", "DistanceCalculatorRESTService\DistanceCalculatorRESTService.csproj", "{44FD1610-72FE-4F7A-859D-2588EB3411C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceCalculatorRESTClient", "DistanceCalculatorRESTClient\DistanceCalculatorRESTClient.csproj", "{7A5664DC-1647-408D-A81C-751F25B406C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBBA1EB6-8B07-4319-AF69-4A66572A4A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBBA1EB6-8B07-4319-AF69-4A66572A4A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBBA1EB6-8B07-4319-AF69-4A66572A4A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBBA1EB6-8B07-4319-AF69-4A66572A4A76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8234A488-44A4-4ED0-A372-A98DD5A44837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8234A488-44A4-4ED0-A372-A98DD5A44837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8234A488-44A4-4ED0-A372-A98DD5A44837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8234A488-44A4-4ED0-A372-A98DD5A44837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FD1610-72FE-4F7A-859D-2588EB3411C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FD1610-72FE-4F7A-859D-2588EB3411C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FD1610-72FE-4F7A-859D-2588EB3411C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FD1610-72FE-4F7A-859D-2588EB3411C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A5664DC-1647-408D-A81C-751F25B406C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A5664DC-1647-408D-A81C-751F25B406C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A5664DC-1647-408D-A81C-751F25B406C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A5664DC-1647-408D-A81C-751F25B406C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
