@@ -1,0 +1,38 @@
+﻿Problem 1.	Add(T) Complexity
+Array.Copy() has complexity O(n), the other lines have O(1)
+=> Total: Complexity is always O(n) 
+
+Problem 2.	Remove(index) Complexity – Worst Case
+Array.Copy() has complexity O(n), the other lines have O(1)
+When the index is small the first call to Array.Copy performs a few operations, the second call of Array.Copy performs many operations
+When the index is big the first call to Array.Copy performs many operations, the second call of Array.Copy performs a few operations
+=> Total: Complexity is always O(n) 
+
+Problem 3.	Remove(index) Complexity – Best Case
+Array.Copy() has complexity O(n), the other lines have O(1)
+Best Case is when the array has only 1 element
+=> Total: Complexity is always O(n) 
+
+Problem 4.	Remove(index) Complexity – Average Case
+Average case is like the other cases
+=> Total: Complexity is always O(n) 
+
+Problem 5.	RemoveFirst(T) Complexity
+The first call to Array.Copy performs O(1) operations, the second call of Array.Copy performs O(n) operations
+=> Total: Complexity is O(n)
+
+Problem 6.	RemoveLast(T) Complexity
+The first call to Array.Copy performs O(n) operations, the second call of Array.Copy performs O(1) operations
+=> Total: Complexity is O(n)
+
+Problem 7.	Length Complexity
+Complexity is O(1) because array saves its length
+
+Problem 8.	This[index] Complexity
+Complexity is O(1) because the array can calculate the index in a few operations
+
+Problem 9.	First Complexity
+Complexity is O(1) because it is a special case of the indexer
+
+Problem 10.	Last Complexity
+Complexity is O(1) because it is a special case of the indexer
