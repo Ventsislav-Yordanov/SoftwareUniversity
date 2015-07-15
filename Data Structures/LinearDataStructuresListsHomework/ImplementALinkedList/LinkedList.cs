@@ -69,6 +69,7 @@ namespace ImplementALinkedList
                         else
                         {
                             currentElement.NextNode = null;
+                            this.tail = currentElement;
                         }
 
                         break;

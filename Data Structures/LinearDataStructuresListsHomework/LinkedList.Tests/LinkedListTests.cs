@@ -251,6 +251,27 @@
             Assert.AreEqual(-1, index);
         }
 
+        [TestMethod]
+        public void RemoveLastElementAndAddMoreElementsShouldWorksCorrectly()
+        {
+            var list = new LinkedList<int>();
+            list.Add(10);
+            list.Add(45);
+            list.Add(32);
+            list.Remove(2);
+            list.Add(33);
+            list.Add(45);
+
+            var listItems = new SCG.List<int>();
+            foreach (var item in list)
+            {
+                listItems.Add(item);
+            }
+
+            Assert.AreEqual(4, listItems.Count);
+            CollectionAssert.AreEqual(new SCG.List<int>() { 10, 45, 33, 45 }, listItems);
+        }
+
         private SCG.List<int> GetLinkedListItems(LinkedList<int> list)
         {
             return list.Select(x => x).ToList();
