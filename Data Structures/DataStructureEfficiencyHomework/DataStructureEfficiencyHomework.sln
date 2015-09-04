@@ -8,6 +8,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementBiDictionary", "ImplementBiDictionary\ImplementBiDictionary.csproj", "{D1ED44CB-AD94-4588-8CC1-311D2C5B1434}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionOfProducts", "CollectionOfProducts\CollectionOfProducts.csproj", "{4C8651DA-23DC-497F-B75E-63B07F7E725F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionOfProducts", "CollectionОфProducts\CollectionOfProducts.csproj", "{4C8651DA-23DC-497F-B75E-63B07F7E725F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionOfProducts.Tests", "CollectionOfProducts.Tests\CollectionOfProducts.Tests.csproj", "{DC101556-AF71-49FF-B129-B047A7A30934}"
 EndProject

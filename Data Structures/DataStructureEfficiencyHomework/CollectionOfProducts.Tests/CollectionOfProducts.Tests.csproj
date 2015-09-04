@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CollectionOfProducts\CollectionOfProducts.csproj">
+    <ProjectReference Include="..\CollectionОфProducts\CollectionOfProducts.csproj">
       <Project>{4c8651da-23dc-497f-b75e-63b07f7e725f}</Project>
       <Name>CollectionOfProducts</Name>
     </ProjectReference>
