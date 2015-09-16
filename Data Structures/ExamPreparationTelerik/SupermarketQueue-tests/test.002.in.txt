@@ -1,0 +1,16 @@
+Find Nakov
+Append Nakov
+Append Nakov
+Append Nakov
+Append Kiro
+Append 1234567890
+Find Nakov
+Find nakov
+Find Kiro
+Find a
+Append 123456789
+Append Nakov
+Find Nakov
+Find Nako
+Find akov
+End

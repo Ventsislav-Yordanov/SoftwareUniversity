@@ -1,0 +1,14 @@
+Insert 0 0Nakov
+Insert 1 1Nakov
+Serve 2
+Insert 1 InvalidPosition
+Serve 1
+Insert 0 0Nakov
+Insert 0 0NakovAgain
+Insert 1 1Nakov
+Insert 1 1NakovAgain
+Insert 4 4Nakov
+Insert 5 5Nakov
+Insert 5 5NakovAgain
+Serve 7
+End

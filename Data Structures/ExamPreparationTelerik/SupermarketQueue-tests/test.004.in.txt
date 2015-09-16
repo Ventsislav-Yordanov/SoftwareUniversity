@@ -1,0 +1,42 @@
+Find Nakov
+Find a
+Serve 1
+Serve 100
+Append Nakov
+Append Nakov
+Append Kiro
+Append 1234567890
+Find Nakov
+Find nakov
+Find Kiro
+Find a
+Append 123456789
+Append Nakov
+Find Nakov
+Find Nako
+Find akov
+Insert 0 0Nakov
+Insert 3 3Nakov
+Insert 5 5Nakov
+Serve 11
+Insert 9 9Nakov
+Serve 100
+Serve 10
+Serve 1
+Find Nakov
+Find Nako
+Find akov
+Find Nakov
+Find nakov
+Find Kiro
+Find a
+Serve 1
+Append 0
+Append 1
+Append 2
+Append 3
+Serve 1
+Serve 2
+Serve 1
+Serve 1
+End
