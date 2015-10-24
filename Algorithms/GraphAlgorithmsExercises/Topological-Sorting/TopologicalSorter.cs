@@ -73,7 +73,7 @@ public class TopologicalSorter
     //        }
     //    }
 
-    //    var removeNodes = new List<string>();
+    //    var removedNodes = new List<string>();
     //    bool noteRemoved = true;
     //    while (noteRemoved)
     //    {
@@ -88,7 +88,7 @@ public class TopologicalSorter
     //        {
     //            predecessorsCount[childNode]--;
     //        }
-    //        removeNodes.Add(nodeToRemove);
+    //        removedNodes.Add(nodeToRemove);
     //        graph.Remove(nodeToRemove);
     //    }
 
@@ -97,6 +97,6 @@ public class TopologicalSorter
     //        throw new InvalidOperationException("A cycle detected in the graph");
     //    }
 
-    //    return removeNodes;
+    //    return removedNodes;
     //}
 }
