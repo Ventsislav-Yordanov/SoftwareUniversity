@@ -74,8 +74,8 @@ public class TopologicalSorter
     //    }
 
     //    var removedNodes = new List<string>();
-    //    bool noteRemoved = true; 
-    //    while (noteRemoved)
+    //    bool nodeRemoved = true; 
+    //    while (nodeRemoved)
     //    {
     //        string nodeToRemove = graph.Keys.FirstOrDefault(k => predecessorsCount[k] == 0);
     //        if (nodeToRemove == null)
