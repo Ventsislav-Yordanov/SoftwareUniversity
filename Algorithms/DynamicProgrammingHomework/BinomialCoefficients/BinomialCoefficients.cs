@@ -1,6 +1,7 @@
 ﻿namespace BinomialCoefficients
 {
     using System;
+    using System.Diagnostics;
 
     public class BinomialCoefficients
     {
@@ -12,11 +13,48 @@
             Console.Write("Please enter k: ");
             int k = int.Parse(Console.ReadLine());
 
-            var binomialCoefficent = GetBinomialCoefficent(n, k);
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            Console.WriteLine("Recursive call");
+            var binomialCoefficent = GetBinomialCoefficentRecursive(n, k);
             Console.WriteLine("The binomial coefficent is: {0}", binomialCoefficent);
+            Console.WriteLine("Elaplsed time in miliseconds: {0}", stopwatch.ElapsedMilliseconds);
+            stopwatch.Stop();
+            stopwatch.Start();
+            Console.WriteLine("Iteratively call");
+            binomialCoefficent = GetBinomialCoefficentIteratively(n, k);
+            Console.WriteLine("The binomial coefficent is: {0}", binomialCoefficent);
+            Console.WriteLine("Elaplsed time in miliseconds: {0}", stopwatch.ElapsedMilliseconds);
         }
 
-        private static int GetBinomialCoefficent(int n, int k)
+        private static int GetBinomialCoefficentRecursive(int n, int k)
+        {
+            var binomialCoefficents = new int[n + 1, k + 1];
+
+            if (k < 0 || k > n)
+            {
+                return 0;
+            }
+
+            if (k > n - k)
+            {
+                k = n - k;
+            }
+
+            if (k == 0 || n <= 1)
+            {
+                return 1;
+            }
+
+            if (binomialCoefficents[n, k] == 0)
+            {
+                binomialCoefficents[n, k] = GetBinomialCoefficentRecursive(n - 1, k) + GetBinomialCoefficentRecursive(n - 1, k - 1);
+            }
+
+            return binomialCoefficents[n, k];
+        }
+
+        private static int GetBinomialCoefficentIteratively(int n, int k)
         {
             var binomialCoefficents = new int[n + 1, k + 1];
 
