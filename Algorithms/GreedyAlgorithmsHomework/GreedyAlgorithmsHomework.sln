@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractionalKnapsackProblem", "FractionalKnapsackProblem\FractionalKnapsackProblem.csproj", "{B549BE0F-6A57-455C-A53A-ECE77AC5B80E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessorScheduling", "ProcessorScheduling\ProcessorScheduling.csproj", "{B15FF7E8-0677-4351-B823-5B3F9BB06889}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnightsTour", "KnightsTour\KnightsTour.csproj", "{369B7C73-34FE-49D6-A6BA-7261B89EC8DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestLecturesSchedule", "BestLecturesSchedule\BestLecturesSchedule.csproj", "{021FB26A-A9DC-479B-AAC7-3051F0AC0578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EgyptianFractions", "EgyptianFractions\EgyptianFractions.csproj", "{5D5D9D54-3A3A-4A35-AED4-C42D53ECE428}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B549BE0F-6A57-455C-A53A-ECE77AC5B80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B549BE0F-6A57-455C-A53A-ECE77AC5B80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B549BE0F-6A57-455C-A53A-ECE77AC5B80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B549BE0F-6A57-455C-A53A-ECE77AC5B80E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B15FF7E8-0677-4351-B823-5B3F9BB06889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B15FF7E8-0677-4351-B823-5B3F9BB06889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B15FF7E8-0677-4351-B823-5B3F9BB06889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B15FF7E8-0677-4351-B823-5B3F9BB06889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369B7C73-34FE-49D6-A6BA-7261B89EC8DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369B7C73-34FE-49D6-A6BA-7261B89EC8DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369B7C73-34FE-49D6-A6BA-7261B89EC8DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369B7C73-34FE-49D6-A6BA-7261B89EC8DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{021FB26A-A9DC-479B-AAC7-3051F0AC0578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{021FB26A-A9DC-479B-AAC7-3051F0AC0578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{021FB26A-A9DC-479B-AAC7-3051F0AC0578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{021FB26A-A9DC-479B-AAC7-3051F0AC0578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5D9D54-3A3A-4A35-AED4-C42D53ECE428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5D9D54-3A3A-4A35-AED4-C42D53ECE428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5D9D54-3A3A-4A35-AED4-C42D53ECE428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5D9D54-3A3A-4A35-AED4-C42D53ECE428}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
