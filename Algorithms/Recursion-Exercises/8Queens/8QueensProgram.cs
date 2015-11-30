@@ -1,92 +1,87 @@
 ﻿namespace _8Queens
 {
     using System;
-    using System.Collections.Generic;
 
-    public class Program
+    public class EightQueen
     {
-        private static HashSet<int> attackedRows = new HashSet<int>();
-        private static HashSet<int> attackedColumns = new HashSet<int>();
-        private static HashSet<int> attackedLeftDiagonals = new HashSet<int>();
-        private static HashSet<int> attackedRightDiagonals = new HashSet<int>();
-        private static bool[,] chessboard = new bool[Size, Size];
-        private const int Size = 8;
-        private static int solutionsFound;
+        private const int ChessSize = 5;
+        private static bool[,] chessboard = new bool[ChessSize, ChessSize];
+        private static bool[] attackedCols = new bool[ChessSize];
+        private static bool[] attackedLeftDiagonals = new bool[(ChessSize * 2) - 1];
+        private static bool[] attackedRightDiagonals = new bool[(ChessSize * 2) - 1];
+        private static int solutionsCount = 0;
 
         public static void Main()
         {
-            PutQueens(0);
+            PutQueen(0);
+            Console.WriteLine($"Solutions count: {solutionsCount}");
         }
 
-        private static void PutQueens(int row)
+        private static void PutQueen(int row)
         {
-            if (row == Size)
+            if (row == ChessSize)
             {
                 PrintSolution();
             }
             else
             {
-                for (int col = 0; col < Size; col++)
+                for (int col = 0; col < ChessSize; col++)
                 {
                     if (CanPlaceQueen(row, col))
                     {
                         MarkAllAttackedPositions(row, col);
-                        PutQueens(row + 1);
+                        PutQueen(row + 1);
                         UnmarkAllAttackedPositions(row, col);
                     }
                 }
             }
         }
 
-        private static bool CanPlaceQueen(int row, int col)
+        private static void PrintSolution()
         {
-            var positionOccupied =
-                attackedRows.Contains(row) ||
-                attackedColumns.Contains(col) ||
-                attackedLeftDiagonals.Contains(col - row) ||
-                attackedRightDiagonals.Contains(col + row);
+            for (int row = 0; row < ChessSize; row++)
+            {
+                for (int col = 0; col < ChessSize; col++)
+                {
+                    if (chessboard[row, col])
+                    {
+                        Console.Write('*');
+                    }
+                    else
+                    {
+                        Console.Write('-');
+                    }
+                }
+                Console.WriteLine();
+            }
 
-            return !positionOccupied;
+            Console.WriteLine();
+            solutionsCount++;
         }
 
         private static void MarkAllAttackedPositions(int row, int col)
         {
-            attackedRows.Add(row);
-            attackedColumns.Add(col);
-            attackedLeftDiagonals.Add(col - row);
-            attackedRightDiagonals.Add(col + row);
+            attackedCols[col] = true;
+            attackedLeftDiagonals[col - row + ChessSize - 1] = true;
+            attackedRightDiagonals[col + row] = true;
             chessboard[row, col] = true;
         }
 
         private static void UnmarkAllAttackedPositions(int row, int col)
         {
-            attackedRows.Remove(row);
-            attackedColumns.Remove(col);
-            attackedLeftDiagonals.Remove(col - row);
-            attackedRightDiagonals.Remove(col + row);
+            attackedCols[col] = false;
+            attackedLeftDiagonals[col - row + ChessSize - 1] = false;
+            attackedRightDiagonals[col + row] = false;
             chessboard[row, col] = false;
         }
 
-
-        private static void PrintSolution()
+        private static bool CanPlaceQueen(int row, int col)
         {
-            Console.WriteLine("Solution #{0}", ++solutionsFound);
-            for (int row = 0; row < Size; row++)
-            {
-                for (int col = 0; col < Size; col++)
-                {
-                    if (chessboard[row, col])
-                    {
-                        Console.Write("*");
-                    }
-                    else
-                    {
-                        Console.Write("-");
-                    }
-                }
-                Console.WriteLine();
-            }
-            Console.WriteLine();
+            var positionOccupied =
+                    attackedCols[col] ||
+                    attackedLeftDiagonals[col - row + ChessSize - 1] ||
+                    attackedRightDiagonals[col + row];
+            return !positionOccupied;
         }
     }
 }
