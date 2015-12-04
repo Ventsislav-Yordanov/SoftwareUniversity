@@ -2,7 +2,6 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
 
     public class SalaryCalculator
     {
@@ -11,15 +10,16 @@
             int numberOfEmployees = int.Parse(Console.ReadLine());
             List<int>[] employees = ReadEmployees(numberOfEmployees);
 
-            int[] managerCounts = GetManagerCounts(numberOfEmployees, employees);
-            int[] salaries = new int[numberOfEmployees];
+            ulong[] salaries = new ulong[numberOfEmployees];
+            ulong totalSum = 0;
 
             for (int employeeIndex = 0; employeeIndex < employees.Length; employeeIndex++)
             {
                 salaries[employeeIndex] = CalculateSalariesDFS(employees, salaries, employeeIndex);
+                totalSum += salaries[employeeIndex];
             }
 
-            Console.WriteLine(salaries.Sum());
+            Console.WriteLine(totalSum);
         }
 
         private static List<int>[] ReadEmployees(int numberOfEmployees)
@@ -41,36 +41,25 @@
             return employees;
         }
 
-        private static int[] GetManagerCounts(int numberOfEmployees, List<int>[] employees)
-        {
-            var managerCounts = new int[numberOfEmployees];
-            foreach (var employee in employees)
-            {
-                foreach (var subordinateEmployee in employee)
-                {
-                    managerCounts[subordinateEmployee]++;
-                }
-            }
-
-            return managerCounts;
-        }
-
-        private static int CalculateSalariesDFS(List<int>[] employees, int[] salaries, int employeeIndex)
+        private static ulong CalculateSalariesDFS(List<int>[] employees, ulong[] salaries, int employeeIndex)
         {
             if (employees[employeeIndex].Count == 0)
             {
-                return 1;
+                salaries[employeeIndex] = 1;
             }
-            else if (salaries[employeeIndex] != 0)
+
+            if (salaries[employeeIndex] != 0)
             {
                 // Memoization - do not repeat the same computations twice
                 return salaries[employeeIndex];
             }
 
-            int salary = 0;
+            ulong salary = 0;
             foreach (var subordinateEmployee in employees[employeeIndex])
             {
-                salary += CalculateSalariesDFS(employees, salaries, subordinateEmployee);
+                ulong subordinateSalary = CalculateSalariesDFS(employees, salaries, subordinateEmployee);
+                salaries[subordinateEmployee] = subordinateSalary;
+                salary += subordinateSalary;
             }
 
             return salary;

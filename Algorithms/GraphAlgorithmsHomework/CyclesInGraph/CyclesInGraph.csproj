@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AcyclicGraphChecker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CyclesFinder.cs" />
   </ItemGroup>
