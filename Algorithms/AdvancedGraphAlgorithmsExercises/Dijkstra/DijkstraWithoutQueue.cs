@@ -33,11 +33,13 @@
 
                 if (minDistance == int.MaxValue)
                 {
+                    // No min distance node found --> alogrithm finished
                     break;
                 }
 
                 used[minNode] = true;
 
+                // Improve the distance[0...n-1] through minNode
                 for (int i = 0; i < n; i++)
                 {
                     if (graph[minNode, i] > 0) // node i is connected to minNode

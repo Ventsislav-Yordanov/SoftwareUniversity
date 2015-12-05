@@ -1,4 +1,4 @@
-﻿namespace Kurskal
+﻿namespace Kruskal
 {
     using System;
     using System.Collections.Generic;
